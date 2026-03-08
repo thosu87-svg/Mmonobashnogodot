@@ -3,11 +3,24 @@ FROM node:18-alpine
 # Set working directory
 WORKDIR /app
 
-# Copy entire repository to have all modules available
-COPY . .
+# Copy package files first for better caching
+COPY integrated-main/package*.json ./integrated-main/
+COPY legacy-src/package*.json ./legacy-src/
+COPY brain-plugin/package*.json ./brain-plugin/
+COPY master-runtime/package*.json ./master-runtime/
 
-# Install dependencies for all packages
-RUN find . -name "package.json" -not -path "./node_modules/*" -execdir npm ci --only=production \;
+# Install dependencies
+RUN cd integrated-main && npm ci --only=production && \
+    cd ../legacy-src && npm ci --only=production && \
+    cd ../brain-plugin && npm ci --only=production && \
+    cd ../master-runtime && npm ci --only=production
+
+# Copy application code
+COPY integrated-main/ ./integrated-main/
+COPY legacy-src/ ./legacy-src/
+COPY brain-plugin/ ./brain-plugin/
+COPY master-runtime/ ./master-runtime/
+COPY sources/ ./sources/
 
 # Create data directory for persistent storage
 RUN mkdir -p /data

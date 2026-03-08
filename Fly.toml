@@ -6,6 +6,17 @@ primary_region = "fra"
 [env]
   NODE_ENV = "production"
   PORT = "8080"
+  # AWS Configuration (set via fly secrets)
+  # AWS_ACCESS_KEY_ID = ""
+  # AWS_SECRET_ACCESS_KEY = ""
+  # AWS_REGION = "eu-central-1"
+  # SNS_ARN = "arn:aws:sns:eu-central-1:986523046654:VPC-Route-Server-Notifications-rs-06753044c47345444"
+  # Database Configuration (set via fly secrets)
+  # DATABASE_URL = ""
+  # GitHub Configuration
+  GITHUB_REPO = "thosu87-svg/Mmonobashnogodot"
+  # Route Server
+  ROUTE_SERVER_ID = "rs-06753044c47345444"
 
 [http_service]
   internal_port = 8080
@@ -39,8 +50,8 @@ primary_region = "fra"
     port = 8080
     type = "tcp"
     interval = "15s"
-    timeout = "5s"
-    grace_period = "10s"
+    timeout = "10s"
+    grace_period = "15s"
 
 [mounts]
   source = "ouroboros_data"
