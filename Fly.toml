@@ -1,0 +1,47 @@
+app = "ouroboros-mmorpg"
+primary_region = "fra"
+
+[build]
+
+[env]
+  NODE_ENV = "production"
+  PORT = "8080"
+
+[http_service]
+  internal_port = 8080
+  force_https = true
+  auto_stop_machines = false
+  auto_start_machines = true
+  min_machines_running = 1
+  processes = ["app"]
+
+[[http_service.ports]]
+  port = 80
+  handlers = ["http"]
+
+[[http_service.ports]]
+  port = 443
+  handlers = ["tls", "http"]
+
+[http_service.concurrency]
+  type = "connections"
+  soft_limit = 200
+  hard_limit = 500
+
+[[vm]]
+  memory = "1024mb"
+  cpu_kind = "shared"
+  cpus = 1
+
+[checks]
+
+  [checks.websocket]
+    port = 8080
+    type = "tcp"
+    interval = "15s"
+    timeout = "5s"
+    grace_period = "10s"
+
+[mounts]
+  source = "ouroboros_data"
+  destination = "/data"
