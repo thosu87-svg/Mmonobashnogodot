@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Integration Hub</title>
+  <style>
+    body { background:#0f1628; color:#eaf2ff; font-family:Arial,sans-serif; margin:0; padding:24px; }
+    .grid { display:grid; grid-template-columns:repeat(2,minmax(260px,1fr)); gap:18px; }
+    .card { background:#18233c; border-radius:16px; padding:16px; box-shadow:0 10px 28px rgba(0,0,0,0.28); }
+    pre { white-space:pre-wrap; word-break:break-word; }
+    a { color:#9fd1ff; }
+  </style>
+</head>
+<body>
+  <h1>MMORPG Integration Hub</h1>
+  <p>Diese Seite verbindet die startbare Runtime mit dem übernommenen Legacy-Code und der Brain-Bridge.</p>
+  <div class="grid">
+    <div class="card">
+      <h3>Legacy Summary</h3>
+      <pre id="summary">lädt...</pre>
+    </div>
+    <div class="card">
+      <h3>Brain Bridge</h3>
+      <pre id="bridge">ServiceFieldAdapter + HeuristicBrainBridge liegen unter src/integration/</pre>
+    </div>
+    <div class="card">
+      <h3>Nächste Schritte</h3>
+      <pre>1. Runtime testen
+2. Legacy-Dateien prüfen
+3. Bridge an vorhandene Services hängen
+4. Brain-Aktionen an Manager weiterreichen</pre>
+    </div>
+    <div class="card">
+      <h3>Links</h3>
+      <pre><a href="/">Spiel</a>
+<a href="/dashboard.html">Brain Dashboard</a>
+<a href="/api/legacy/summary">Legacy Summary API</a>
+<a href="/api/legacy/files">Legacy Files API</a></pre>
+    </div>
+  </div>
+  <script type="module" src="/integration.js"></script>
+</body>
+</html>

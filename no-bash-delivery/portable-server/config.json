@@ -1,0 +1,6 @@
+{
+  "port": 3000,
+  "publicBaseUrl": "https://YOUR-STATIC-SITE.example.com",
+  "saveFile": "./saves/world-save.json",
+  "logLevel": "info"
+}

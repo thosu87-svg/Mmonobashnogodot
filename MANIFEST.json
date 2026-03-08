@@ -1,0 +1,2699 @@
+{
+  "files": [
+    {
+      "path": "README_MASTER.md",
+      "sha256": "0f51b5ef73aa66364059639f5472436535fd243122ce9583bac00689ed1e1e5b",
+      "size": 1462
+    },
+    {
+      "path": "brain-plugin/README.md",
+      "sha256": "6fd365ee07d970b9ece56021ad0f56a54d007deaf65d3a753b7742454cb636df",
+      "size": 330
+    },
+    {
+      "path": "brain-plugin/package.json",
+      "sha256": "348778e7bdf0a62dc608c704c293dce189548ea0c8598e50bb1d554e6af5a099",
+      "size": 251
+    },
+    {
+      "path": "brain-plugin/scripts/simulate-agent.js",
+      "sha256": "a12d38450c5f3aec6f26b2c764278116365a30a14df2325776261279465fa716",
+      "size": 183
+    },
+    {
+      "path": "brain-plugin/src/agents/BaseAgent.js",
+      "sha256": "696facd5a559d69dbe6ada08c81f5778e7d391bce595a92d33d150b440b34d7c",
+      "size": 125
+    },
+    {
+      "path": "brain-plugin/src/agents/EconomyAgent.js",
+      "sha256": "d19ad53dbcb7c125c8cc90ec413a9d0268aafa23f2a8d1919d8df1242628bc98",
+      "size": 369
+    },
+    {
+      "path": "brain-plugin/src/agents/NavigationAgent.js",
+      "sha256": "113e25ee753d03ed04ad63b20647984d3df3e46cc99fdd29603328a2562a3990",
+      "size": 336
+    },
+    {
+      "path": "brain-plugin/src/brain/Blackboard.js",
+      "sha256": "34a1862360f1d70c8185b1955d9c7571c4dca641cc63d5fb37f0104076d1fb9d",
+      "size": 314
+    },
+    {
+      "path": "brain-plugin/src/brain/Orchestrator.js",
+      "sha256": "6c219e55c62cb41087bb7e5a7be08aceaabdd974032c4253dc15efc29826c438",
+      "size": 1035
+    },
+    {
+      "path": "brain-plugin/src/brain/WorldBrain.js",
+      "sha256": "35e62a0e50796161b3877219bdc6bf0e697f12a69d966a76bc743e60b1b14e5c",
+      "size": 585
+    },
+    {
+      "path": "brain-plugin/src/server/integrateWorldBrain.js",
+      "sha256": "c688e7fdba2d0fb3f225b72463e78d5755b0f8f69d3b7bd69516fcb88402cc93",
+      "size": 267
+    },
+    {
+      "path": "docs/NOCODE_MASTER_INSTALL.md",
+      "sha256": "bab56f56b28c207095985103887039f71bc2de23ea206b86a854a5d1d3787ae9",
+      "size": 1675
+    },
+    {
+      "path": "integration/HeuristicBrainBridge.ts",
+      "sha256": "66b1d6735fee88cd68644980bc2b1beba418ef02c1ae7ecce556ffee4116f8f3",
+      "size": 1781
+    },
+    {
+      "path": "integration/MASTER_MERGE_PLAN.md",
+      "sha256": "6ceb871f2f09d1fc71b9ec7a7b55cae1f4065face2a9b49424b9a9b9b31305c6",
+      "size": 883
+    },
+    {
+      "path": "integration/ServiceFieldAdapter.ts",
+      "sha256": "25afc50254f86597bdb42baca670122888854c5be2d265fd4ef32b4bd14b269f",
+      "size": 657
+    },
+    {
+      "path": "legacy-src/BRAIN_MERGE_NOTE.md",
+      "sha256": "73c90b2b1b8868c48106c6f86fdf49ea2737dbef5947908d8c42997de70f85c8",
+      "size": 1355
+    },
+    {
+      "path": "legacy-src/ai/dev.ts",
+      "sha256": "26c59c7c00ca7b453506fc2169c56723d67924678ebeebb1da79b421b6e24da4",
+      "size": 296
+    },
+    {
+      "path": "legacy-src/ai/flows/autonomous-decision-flow.ts",
+      "sha256": "317f85a62bbe669ac9ec1f37581008229290df8168ff1fa3cbae6041f96d3d07",
+      "size": 1684
+    },
+    {
+      "path": "legacy-src/ai/flows/content-brain-flow.ts",
+      "sha256": "125edf2c43fcdee5a2ad6a2b5281ec4ffb5f0a1c1ff91b073e3acb7f64278f2d",
+      "size": 2724
+    },
+    {
+      "path": "legacy-src/ai/flows/emergent-behavior-flow.ts",
+      "sha256": "f5909e62de30a79c64dfb68eecc5f70d838b8c2c6eded2a161e2ee3d6429cc8a",
+      "size": 1805
+    },
+    {
+      "path": "legacy-src/ai/flows/generate-dynamic-quest.ts",
+      "sha256": "bbfe3ac5e5865ae0d39fdbc8edad1f064fd4f63b609a733f339e81bcab32b904",
+      "size": 3757
+    },
+    {
+      "path": "legacy-src/ai/flows/generate-npc-personality-flow.ts",
+      "sha256": "43331db848a620991a6085de71d836bf6ca482b9557b965a5aff309fdfa1f229",
+      "size": 1002
+    },
+    {
+      "path": "legacy-src/ai/flows/import-agent-flow.ts",
+      "sha256": "8e42699487f4a85d874d4825dd506c29a4fcf71900727bd5734507e461a6f4de",
+      "size": 1147
+    },
+    {
+      "path": "legacy-src/ai/flows/project-diagnostics-flow.ts",
+      "sha256": "108193d97646f4246df52db7eb82348d56bcae25db995c84a94fe313be1b90ed",
+      "size": 1146
+    },
+    {
+      "path": "legacy-src/ai/flows/youtube-automation-flow.ts",
+      "sha256": "37179de5b2cc352cf994369d0eae7ca8cf4c9dfa9e7009e44e18957fa7ef8434",
+      "size": 1422
+    },
+    {
+      "path": "legacy-src/ai/genkit.ts",
+      "sha256": "bb923c451efc57f7ebff318d35ba117112307910dc613d6d931b80d7c74cf104",
+      "size": 478
+    },
+    {
+      "path": "legacy-src/app/about/page.tsx",
+      "sha256": "2f22113ccaad6df096e93880189e6591a962f0591a1335af65c1e632804c9349",
+      "size": 3931
+    },
+    {
+      "path": "legacy-src/app/admin/audit-logs/page.tsx",
+      "sha256": "9a1f3444018be768f2fd58e6c01f3020f8865ac01c2ba46d7ab8f20556b2054f",
+      "size": 7550
+    },
+    {
+      "path": "legacy-src/app/admin/content/page.tsx",
+      "sha256": "29c2fb2622d865ef4d687559591e1c87ddc0b547a76f86e0e75932061d370c35",
+      "size": 12904
+    },
+    {
+      "path": "legacy-src/app/admin/lore/page.tsx",
+      "sha256": "d2f64dcc9875dbeb73b056653551e98e8dda9bc0e5cf68ba14e1ca1a8b21d89d",
+      "size": 11044
+    },
+    {
+      "path": "legacy-src/app/agents/page.tsx",
+      "sha256": "e82cb214233a526a5a7150b02f0850cf55cbe3a6892d417b1d0c3df3331dbd2c",
+      "size": 10553
+    },
+    {
+      "path": "legacy-src/app/api/ai-agent-entry/route.ts",
+      "sha256": "dcb4564e2e8f7654f3bc57e51651a4015e0b69577a087f4cc3375f8a89792270",
+      "size": 1312
+    },
+    {
+      "path": "legacy-src/app/api/brain/scan/route.ts",
+      "sha256": "d07793933ad5441a51c70928be19314e1dcba06e82b4a3dbbcc96b37ba28b0e0",
+      "size": 771
+    },
+    {
+      "path": "legacy-src/app/assets/page.tsx",
+      "sha256": "efba99e270dce887b083050b24a9e5a9484c0eed801626fbfecd56fceb68dada",
+      "size": 17444
+    },
+    {
+      "path": "legacy-src/app/character-creator/page.tsx",
+      "sha256": "d2b83c0c998b12989bb3d5ad2aa0004511e1dbabdd881d899940aba9fd66a112",
+      "size": 14829
+    },
+    {
+      "path": "legacy-src/app/contact/page.tsx",
+      "sha256": "12def87e9d135711a0bc43c66dd7f26aecac2e6495cf20c98f7dbd4ff568e466",
+      "size": 3015
+    },
+    {
+      "path": "legacy-src/app/dashboard/brain/page.tsx",
+      "sha256": "275bcaa2c2351700d010c6893f3439f5bf6b0cdbbcd4f7ee1bc86d2579a9a7c7",
+      "size": 11679
+    },
+    {
+      "path": "legacy-src/app/dashboard/layout.tsx",
+      "sha256": "6d32504e67b1736c875c78042d4dbb54c21fda452b69403edc1508a9a70f73f3",
+      "size": 2263
+    },
+    {
+      "path": "legacy-src/app/dashboard/molecules/page.tsx",
+      "sha256": "3ab523d23ec68d15f1c4ec93f34a53096b51935652122f40e482267079d773a3",
+      "size": 5503
+    },
+    {
+      "path": "legacy-src/app/dashboard/page.tsx",
+      "sha256": "f688700cd7b6cb84817a49b5d1e22e399bcb4b0fdcf2b1bade120306b829f961",
+      "size": 10263
+    },
+    {
+      "path": "legacy-src/app/economy/page.tsx",
+      "sha256": "6025691404c5ade375793b7fdb801fdb80dfd0894903df0d0268ba7e2b04bd6d",
+      "size": 5720
+    },
+    {
+      "path": "legacy-src/app/favicon.ico",
+      "sha256": "5c56c5e3c4c59c06e0ba3fdb0f551bc1161564e716a614159e57d18077fcfae0",
+      "size": 15086
+    },
+    {
+      "path": "legacy-src/app/globals.css",
+      "sha256": "b45f998bdb0fc13553672bc0ae06533cb84eff6b4f3b7de666b31bee1e7fb814",
+      "size": 2972
+    },
+    {
+      "path": "legacy-src/app/godot/page.tsx",
+      "sha256": "038dffdd3b6b0d458ced7edde958ff30f15263e6b8c573525ce281e23e589b55",
+      "size": 7664
+    },
+    {
+      "path": "legacy-src/app/landing/page.tsx",
+      "sha256": "8141dc663785d3fa6ba875791407b8b62212c5483d54ff4379f80aaa7418b5bc",
+      "size": 99
+    },
+    {
+      "path": "legacy-src/app/layout.tsx",
+      "sha256": "5b2bb0e2cd22ef142f9a41e6beabd9b889635e6875e187f627b07709cae783ec",
+      "size": 933
+    },
+    {
+      "path": "legacy-src/app/npcs/page.tsx",
+      "sha256": "d52b0cd326b14d9813f6c0451125fed25f92d224f66513149ea22294817c6b7e",
+      "size": 9450
+    },
+    {
+      "path": "legacy-src/app/page.tsx",
+      "sha256": "69bb4e1ad99e39f065d55e85f70304e15ce2ad1e364f8755a54d6538cb3a39b0",
+      "size": 12205
+    },
+    {
+      "path": "legacy-src/app/pilot-hub/page.tsx",
+      "sha256": "12cc9c7d1bc3e8fd6fe63e4f9c9acd69f07841e6d6c9386ae4d214f4fde12df6",
+      "size": 8248
+    },
+    {
+      "path": "legacy-src/app/players/page.tsx",
+      "sha256": "0030aedbc60366771de59196e5577238aeae36def440e5ef27e55a052b67d1ab",
+      "size": 8277
+    },
+    {
+      "path": "legacy-src/app/profile/page.tsx",
+      "sha256": "6d091ecd7d4d41be375597defe8a71fa7328ffac1677b62b1bd83411f4653bce",
+      "size": 5783
+    },
+    {
+      "path": "legacy-src/app/quests/page.tsx",
+      "sha256": "21c0fedd705fe4c5d615ea2d4921649585bb7dbb1a5390b03887956e5e8bc596",
+      "size": 13004
+    },
+    {
+      "path": "legacy-src/app/settings/page.tsx",
+      "sha256": "8519240ca3de6bde4e0c6d3d10f5cc45320f5d093d3fd851f1d2e5ca1da90d6b",
+      "size": 10217
+    },
+    {
+      "path": "legacy-src/app/store/page.tsx",
+      "sha256": "c03d04b220fec9662d844e568db2b32f270c6809be75c768842085c085959606",
+      "size": 6099
+    },
+    {
+      "path": "legacy-src/app/world-preview/page.tsx",
+      "sha256": "704f03183e414782015428fc8c5383f4456fab4ebe03c1f7dff3b5f09f3c72a0",
+      "size": 6117
+    },
+    {
+      "path": "legacy-src/backend/index.ts",
+      "sha256": "22515c7c4133e7a7ef93ce2481e050438fdafe7cccb16589c9000e5a0758cebd",
+      "size": 2681
+    },
+    {
+      "path": "legacy-src/brain-framework/.gitignore",
+      "sha256": "70559453d982dad7aa3ffa52283e996bb85bd856bf81d2f53a031476278954c3",
+      "size": 37
+    },
+    {
+      "path": "legacy-src/brain-framework/README.md",
+      "sha256": "5f2514850838110f99d44e12ba4354cfd2cfe590eb14082f4b85700c36ade31b",
+      "size": 218
+    },
+    {
+      "path": "legacy-src/brain-framework/package.json",
+      "sha256": "12601c461bc144f126442ad64efa5bc047ca88aaacd95ce9e08dd4b22406c512",
+      "size": 302
+    },
+    {
+      "path": "legacy-src/brain-framework/public/dashboard.html",
+      "sha256": "b628b6632d6f5e1b79b3acda73609c875496fcee7baf0956220f2b94b348117b",
+      "size": 1009
+    },
+    {
+      "path": "legacy-src/brain-framework/public/dashboard.js",
+      "sha256": "ee42ff25a1c4fd469d37047e844f2389ab1d23c795cc0e1d70facb95bc10952c",
+      "size": 703
+    },
+    {
+      "path": "legacy-src/brain-framework/public/index.html",
+      "sha256": "c24a1a54df797d369a835b96d55ac859fc8d61a819712a391afb178a0c04c7b3",
+      "size": 1268
+    },
+    {
+      "path": "legacy-src/brain-framework/public/main.js",
+      "sha256": "f8b3108ae88b52f45be33e9a2f98888206e5ba6f9e2d3a944d74b985b33d4c29",
+      "size": 4116
+    },
+    {
+      "path": "legacy-src/brain-framework/scripts/simulate-brain.js",
+      "sha256": "c0c04e2777a3488673f502e9101d1f2b11dc09955d84a2a1d3597ab2cf2d9cf3",
+      "size": 554
+    },
+    {
+      "path": "legacy-src/brain-framework/src/server/agents/AntiExploitAgent.js",
+      "sha256": "e51c9329fb5468a8645ece7ec75e6a5f88ff79281bdafc5903686ff4bdf98e15",
+      "size": 375
+    },
+    {
+      "path": "legacy-src/brain-framework/src/server/agents/BaseAgent.js",
+      "sha256": "b4e7c108b018df4917b9544feea579ba0e3b65e7503fa4fb475e0d89c544c3a2",
+      "size": 102
+    },
+    {
+      "path": "legacy-src/brain-framework/src/server/agents/ChunkStreamingAgent.js",
+      "sha256": "79cc05c5d7bf3de632f784734701f3fbccac5672fcaa99e4bb5695b97c9010d9",
+      "size": 381
+    },
+    {
+      "path": "legacy-src/brain-framework/src/server/agents/CombatAgent.js",
+      "sha256": "91a3ca9cffcdbbc5951d0fc3b8b04adad847bbc626aadab27086e85bc22402c4",
+      "size": 329
+    },
+    {
+      "path": "legacy-src/brain-framework/src/server/agents/DungeonAgent.js",
+      "sha256": "306eed2b429a5fa5f4fe84649bb508d6bf2ed0c292344ea26fdc43efa7d40b0e",
+      "size": 350
+    },
+    {
+      "path": "legacy-src/brain-framework/src/server/agents/EconomyAgent.js",
+      "sha256": "8881ef0b3ca31278adda557060d0ed55829c3bbf499c9741ca6e41ac5925e242",
+      "size": 337
+    },
+    {
+      "path": "legacy-src/brain-framework/src/server/agents/EventReactionAgent.js",
+      "sha256": "919f72b35d429d4c99500310c297fec94887bbdd32a020b2298b8d98bceeefe8",
+      "size": 359
+    },
+    {
+      "path": "legacy-src/brain-framework/src/server/agents/GuildAgent.js",
+      "sha256": "e8e3c2448b281171e5802bbbb29592a50e1b78950115ca3661f7652149f9afaa",
+      "size": 341
+    },
+    {
+      "path": "legacy-src/brain-framework/src/server/agents/NavigationAgent.js",
+      "sha256": "56a1f00572cf85a55441758f5150b785680bb9bc48c2fad900ffe0205906cd9e",
+      "size": 346
+    },
+    {
+      "path": "legacy-src/brain-framework/src/server/agents/QuestAgent.js",
+      "sha256": "61c323515372f5cd1725428e56d94162334d1446964131b4eecf010bf7d02f22",
+      "size": 338
+    },
+    {
+      "path": "legacy-src/brain-framework/src/server/agents/ResourceAgent.js",
+      "sha256": "1ddf8def56aa8ee477fff3a48ec563491faf9760c6c4b46eb27fc9a1f10b2bfe",
+      "size": 354
+    },
+    {
+      "path": "legacy-src/brain-framework/src/server/agents/SocialAgent.js",
+      "sha256": "337542c6d57ead092ef72a14fe8a4c3d26714d50bc77a320fd4fe93300329571",
+      "size": 341
+    },
+    {
+      "path": "legacy-src/brain-framework/src/server/agents/ThreatAgent.js",
+      "sha256": "fc8495c5fbae7ba7f5da8637ef244392a48f74d8afc6398f909be25a9579d630",
+      "size": 333
+    },
+    {
+      "path": "legacy-src/brain-framework/src/server/agents/TradingAgent.js",
+      "sha256": "0814bc8391cef0b72aa364072c2ec9d0ca8d619f5f315843bdab85e9b73c0cdb",
+      "size": 340
+    },
+    {
+      "path": "legacy-src/brain-framework/src/server/brain/Blackboard.js",
+      "sha256": "68874c51ef7127397278d554d0eb38839a0e1fda740430b69f35e32d74c17f10",
+      "size": 172
+    },
+    {
+      "path": "legacy-src/brain-framework/src/server/brain/Orchestrator.js",
+      "sha256": "de0a7488221444d616fdd6bbac8cc7fe0d4697ed9a639ef42f57a54f30c2c59d",
+      "size": 1012
+    },
+    {
+      "path": "legacy-src/brain-framework/src/server/brain/WorldBrain.js",
+      "sha256": "0ec8d2201f690efa96668c49571df0c31f957328fe2371b24d71682c4b7c6274",
+      "size": 1514
+    },
+    {
+      "path": "legacy-src/brain-framework/src/server/index.js",
+      "sha256": "6d86d84246a8125283f821ab2469827f3c55240119ad088a7912d871520fb8bb",
+      "size": 622
+    },
+    {
+      "path": "legacy-src/brain-framework/src/server/net/GameServer.js",
+      "sha256": "b4c82db1594f466d00f007c5504abb78c450ee5d2bf0ad9902182a53485d91e9",
+      "size": 2142
+    },
+    {
+      "path": "legacy-src/brain-framework/src/server/world/ChunkManager.js",
+      "sha256": "fadfdb00ab57bd9dde1acf984633b9b1a6cb751df7ee9aaafcf651c28c3e19b1",
+      "size": 717
+    },
+    {
+      "path": "legacy-src/brain-framework/src/server/world/GameWorld.js",
+      "sha256": "e3dfb38ae6dad5d2b936f754a28e67e38dcf4a623b7af6dcdf64849486796e45",
+      "size": 6465
+    },
+    {
+      "path": "legacy-src/brain-framework/src/shared/constants.js",
+      "sha256": "9dcbced1ce84b3163d18d7c3bda6bb905539c5a9204107f8a987561733749018",
+      "size": 240
+    },
+    {
+      "path": "legacy-src/components/FirebaseErrorListener.tsx",
+      "sha256": "921636d647f162af90e29ff60b13143f1c2c56afc8c217ac56b3124ea3815704",
+      "size": 1286
+    },
+    {
+      "path": "legacy-src/components/auth/AuthModal.tsx",
+      "sha256": "659707a2cec28998357a405e1949fa03e27208bea75f09c3a1c72dab6d5378a7",
+      "size": 4895
+    },
+    {
+      "path": "legacy-src/components/game/AnimationSystem.ts",
+      "sha256": "5f912843002062540d72f8165e28cf9ae465b37d029d7470a904f76a0fdd8f09",
+      "size": 5149
+    },
+    {
+      "path": "legacy-src/components/game/AxiomHandshakeModal.tsx",
+      "sha256": "ea48f75a382af8c1fd989f9cd78ed34b0c77227a9dd3c67ba1cc709e4c82458b",
+      "size": 4677
+    },
+    {
+      "path": "legacy-src/components/game/AxiomShader.ts",
+      "sha256": "a76594a24dd246f9214d456a2fee03244394134bd9eaabb4177a4d51d9d1f689",
+      "size": 1777
+    },
+    {
+      "path": "legacy-src/components/game/CharacterManifestationPreview.tsx",
+      "sha256": "adfb4557aae0f27c83ce9b4c9a5414a3d00b1a92e56c54457748d97eb06a8ce9",
+      "size": 1859
+    },
+    {
+      "path": "legacy-src/components/game/EquipmentRenderer.ts",
+      "sha256": "b8e3b291470082fa1c20b29a57a54fd10db4aa0fe0e235906cc3dea42adf5fdc",
+      "size": 5839
+    },
+    {
+      "path": "legacy-src/components/game/HumanoidModel.ts",
+      "sha256": "5f477c6bd6ce972d92902defd530c300e72556c50117a5fbec307316b977e385",
+      "size": 9073
+    },
+    {
+      "path": "legacy-src/components/game/MobileControls.tsx",
+      "sha256": "30a18aad9023a8b7cbd2596ff44d753fbc806c734b8d46ede557764c9335fdfb",
+      "size": 3038
+    },
+    {
+      "path": "legacy-src/components/game/SimulationManager.tsx",
+      "sha256": "3464c99ad4672235e7ab2779e4439b66bf22431a4177c1a547ff3c2246d9398b",
+      "size": 2348
+    },
+    {
+      "path": "legacy-src/components/game/World3D.tsx",
+      "sha256": "ef473343cc950e65e291e1a5c8e2e27c651988430380bdafa1da9692960a9910",
+      "size": 13410
+    },
+    {
+      "path": "legacy-src/components/layout/AppSidebar.tsx",
+      "sha256": "5d77a960df9281bcfa7346541e348e32e417fcda4d6ae4da979daf87a31b8eb5",
+      "size": 7744
+    },
+    {
+      "path": "legacy-src/components/layout/Header.tsx",
+      "sha256": "3cd41b5dec413879e0df9429dfc3ce3b06d863b88d4597b633a90e8f4f2d2bbc",
+      "size": 4651
+    },
+    {
+      "path": "legacy-src/components/layout/RootProviders.tsx",
+      "sha256": "6a3c9ed7e9f24efc2cc36aa9caf96b0f2fc6da5d4e357bc2ee66af9089912e93",
+      "size": 1500
+    },
+    {
+      "path": "legacy-src/components/ui/AdminAssetManager.tsx",
+      "sha256": "c8546777d432f50e0c5310a09df5a9acd299a49d6a3150a22ffe94a65df4082c",
+      "size": 36312
+    },
+    {
+      "path": "legacy-src/components/ui/AdminDashboard.tsx",
+      "sha256": "f42531da3b1abcdc24ffbd454dccf771c3e9c9fb0d479050d9dda81ade5ade8a",
+      "size": 16640
+    },
+    {
+      "path": "legacy-src/components/ui/AdminQuestManager.tsx",
+      "sha256": "be51d2973021e37787f8e5c6b35c0bdf0f4bd2abb86c93022eff5918320ca02a",
+      "size": 35206
+    },
+    {
+      "path": "legacy-src/components/ui/AdminShopManager.tsx",
+      "sha256": "63cf8b2c48d484a2fe08f985c759ce765190ea1897c526cd6662d592ffe5874f",
+      "size": 15565
+    },
+    {
+      "path": "legacy-src/components/ui/AgentHUD.tsx",
+      "sha256": "7a8e5c4befd6ca9300275b47641dd6e92f7e309129047f5ea72bbdef7e3d13ca",
+      "size": 16969
+    },
+    {
+      "path": "legacy-src/components/ui/AgentManagerOverlay.tsx",
+      "sha256": "8b50f3aa4256edeaa6169cc65e746fc16550c435a17733d68dadfc7a611e51f7",
+      "size": 14438
+    },
+    {
+      "path": "legacy-src/components/ui/AgentMemoryDisplay.tsx",
+      "sha256": "2ec5ce13f70a86656a78d0782255776f6c514da2ed0aec2cd22076b1621bece5",
+      "size": 4527
+    },
+    {
+      "path": "legacy-src/components/ui/AuctionHouseOverlay.tsx",
+      "sha256": "115206e961a2f7f40580297828902aeff736ac6ca15f306b658786c598cc943c",
+      "size": 6513
+    },
+    {
+      "path": "legacy-src/components/ui/AxiomDebugger.tsx",
+      "sha256": "55280b7cd1a56f92dcf02069f081c8579b947b0ec70841d0ee285f334e8d6671",
+      "size": 12237
+    },
+    {
+      "path": "legacy-src/components/ui/AxiomaticOverlay.tsx",
+      "sha256": "a86b2b2c4883735f065002b6856c5dc4517f16d6292dd71dfc18fc19d589a228",
+      "size": 4738
+    },
+    {
+      "path": "legacy-src/components/ui/BiomeControls.tsx",
+      "sha256": "821d281434c9f3869d4eef19beaecbae6e84e240bb83ec277e66049420e1536e",
+      "size": 1625
+    },
+    {
+      "path": "legacy-src/components/ui/CharacterCreation.tsx",
+      "sha256": "80e37910a43437cb1dd20a153ab7cbabfd8819374d4ac29592be23ef46bc4a37",
+      "size": 14078
+    },
+    {
+      "path": "legacy-src/components/ui/CharacterSheet.tsx",
+      "sha256": "27f9085778d6fb31c4a7b4f5f8f6d34a00d31a3b9b38711a9e590e92f8ec2e6f",
+      "size": 27042
+    },
+    {
+      "path": "legacy-src/components/ui/ChatConsole.tsx",
+      "sha256": "6bd70737e9d1763578e0f6cb28702aeb536a8a9247d8519db6c4419601d56de8",
+      "size": 4041
+    },
+    {
+      "path": "legacy-src/components/ui/ChatLog.tsx",
+      "sha256": "626f041bf1bf6af396be2cda2904d27a66e512fc0f679a37e0e8e05dac2b62f3",
+      "size": 3529
+    },
+    {
+      "path": "legacy-src/components/ui/EmergenceAdminMenu.tsx",
+      "sha256": "fb565c86498ab7522d1d07b83ec6ce7d77f15c2c47d4dd89339c64a0280efb73",
+      "size": 10035
+    },
+    {
+      "path": "legacy-src/components/ui/EmergentBehaviorMonitor.tsx",
+      "sha256": "9826e1e0818c56bb0d3a9599a64e869373016e99b489b1dd92d41b05786996e9",
+      "size": 5773
+    },
+    {
+      "path": "legacy-src/components/ui/EnergyShopOverlay.tsx",
+      "sha256": "b5cc55f86fbc6ad88f0f2d3bc0f561a4ad001f15bac5feb7f618e4b244672422",
+      "size": 5246
+    },
+    {
+      "path": "legacy-src/components/ui/MatrixTerminal.tsx",
+      "sha256": "fcb9107b9cc0dcd70399360b7f1a65ff8891967dd80718ad8611963f0d822f14",
+      "size": 3457
+    },
+    {
+      "path": "legacy-src/components/ui/PayPalModal.tsx",
+      "sha256": "a8289cf0f4878f00cae0302096f69f49862682d7a623cb098a7b401e53475eec",
+      "size": 2478
+    },
+    {
+      "path": "legacy-src/components/ui/QuestBoardOverlay.tsx",
+      "sha256": "f401f332f9e8add738638345b0e965f7ada41b89c9503600f6c0cb688cbec493",
+      "size": 4104
+    },
+    {
+      "path": "legacy-src/components/ui/ShaderController.tsx",
+      "sha256": "bfb746ae29031fa3ff4a415d10308363a4661bdc35cde14e5bc47e94177c59a5",
+      "size": 3765
+    },
+    {
+      "path": "legacy-src/components/ui/SkillBar.tsx",
+      "sha256": "8a7d2de42a94877e7945d72242cb8c1d5513fefa8cbe04c822e9541cbbfa5e97",
+      "size": 2756
+    },
+    {
+      "path": "legacy-src/components/ui/TaskComponent.tsx",
+      "sha256": "6ccd3d4b0932f55a61d8161713268aaa42e39acfa62a1ca92746f9429af1e5cb",
+      "size": 5510
+    },
+    {
+      "path": "legacy-src/components/ui/WorldMap.tsx",
+      "sha256": "175069741242a6f6ec9bef6d2027c12cf4df5bf1c4071171888e02ecaa53cf46",
+      "size": 2116
+    },
+    {
+      "path": "legacy-src/components/ui/accordion.tsx",
+      "sha256": "1cc98c2ab5106d8d476f1da4aa8dd535198a8113513b2c918938ea76d90bbbc9",
+      "size": 1991
+    },
+    {
+      "path": "legacy-src/components/ui/alert-dialog.tsx",
+      "sha256": "2ede53a17b342a8265b924563f08d352dc7358a91585b0332b3d4a055b692407",
+      "size": 4434
+    },
+    {
+      "path": "legacy-src/components/ui/alert.tsx",
+      "sha256": "ed78a053a9db783f48d5dfab7398b630f87c17ed2e237b6f30a3eb153675960c",
+      "size": 1584
+    },
+    {
+      "path": "legacy-src/components/ui/avatar.tsx",
+      "sha256": "e78b35ed76c67d8ff50603fbe0dfa4fe600097bd860d89e65beea3e16683dad8",
+      "size": 1419
+    },
+    {
+      "path": "legacy-src/components/ui/badge.tsx",
+      "sha256": "db977d821af56ae3fb7952182d9c0a076a10c75c38bc2d2b000827e720423d32",
+      "size": 1128
+    },
+    {
+      "path": "legacy-src/components/ui/button.tsx",
+      "sha256": "415ccc47cf69a2a87db699cc6da7f1fdcb799a1f40dab3a6220d91ac8da8abbe",
+      "size": 1901
+    },
+    {
+      "path": "legacy-src/components/ui/calendar.tsx",
+      "sha256": "60bc1412b70b3e62b6be56f729d4b6458a85ca8b34bfc1b74228d488dfbb14d2",
+      "size": 2709
+    },
+    {
+      "path": "legacy-src/components/ui/card.tsx",
+      "sha256": "69afcf9c8e58ca6c3acf43c5b1ec9186bb6c88952f0ff49345dd2666f93d5480",
+      "size": 1858
+    },
+    {
+      "path": "legacy-src/components/ui/carousel.tsx",
+      "sha256": "69686986376cbc02a5f907b1ca8a7a759808c4e8df1200517c57ec749e8484cd",
+      "size": 6224
+    },
+    {
+      "path": "legacy-src/components/ui/chart.tsx",
+      "sha256": "77ac45c5dc42e4d55ae964bf2589cfa823d0f5be3961f5b8a97a82dde90b7a28",
+      "size": 10479
+    },
+    {
+      "path": "legacy-src/components/ui/checkbox.tsx",
+      "sha256": "870e9819040c04fe40dd869b1076f908c63661fae5c627d657d759e4532c2334",
+      "size": 1070
+    },
+    {
+      "path": "legacy-src/components/ui/collapsible.tsx",
+      "sha256": "f4cdd104de29928bfcd40b865c7d08eed9157a537fbb8b5e6d0921f02b63cc04",
+      "size": 329
+    },
+    {
+      "path": "legacy-src/components/ui/dialog.tsx",
+      "sha256": "60d5246653c714fc12a67743ee5951331ecd2548cdaef9a599922bcb14da26db",
+      "size": 3848
+    },
+    {
+      "path": "legacy-src/components/ui/dropdown-menu.tsx",
+      "sha256": "ca0802c2e73d06aaca91242e6c2edb5451168c37770d2675bf98245d6f7f2517",
+      "size": 7433
+    },
+    {
+      "path": "legacy-src/components/ui/form.tsx",
+      "sha256": "0d812c11a1afa799fb2bfa8f1e11052eacb64252c4b52be969a5f89aae1f52fb",
+      "size": 4120
+    },
+    {
+      "path": "legacy-src/components/ui/input.tsx",
+      "sha256": "b326e2af874b14aa2ac18096ddbec512c6258f3fafc20ba6c8262818d48e6a5b",
+      "size": 791
+    },
+    {
+      "path": "legacy-src/components/ui/label.tsx",
+      "sha256": "2eac8fbb04002c42b0fbc4062d20d131e421796eaf65c37d2049e29e42ecbc5a",
+      "size": 724
+    },
+    {
+      "path": "legacy-src/components/ui/menubar.tsx",
+      "sha256": "cc9eca19634c19ba2ff5bf5978452ee7969f15ea6dd61554a4cde1b1a788a48d",
+      "size": 8505
+    },
+    {
+      "path": "legacy-src/components/ui/popover.tsx",
+      "sha256": "8a10fdf10a500f709581fb49690c3a86c82d07db969266ee47bcad6f0c2782e5",
+      "size": 1244
+    },
+    {
+      "path": "legacy-src/components/ui/progress.tsx",
+      "sha256": "8c036da4baed076de68d27719929dc98151a81b51456bfa6a2488d835303b1d7",
+      "size": 791
+    },
+    {
+      "path": "legacy-src/components/ui/radio-group.tsx",
+      "sha256": "4e0515412cad83083f8b13e0f8f6bbdd4dd74d4156601f969a353a822de66a50",
+      "size": 1481
+    },
+    {
+      "path": "legacy-src/components/ui/scroll-area.tsx",
+      "sha256": "edbaecbc4f5cb6e16ecb39d3678d81b26e1a968dfc273dbb77821de3c8626377",
+      "size": 1656
+    },
+    {
+      "path": "legacy-src/components/ui/select.tsx",
+      "sha256": "1aba9cfb792bfa02b0fc8764dfd524d23e2191367863545963940034f61526ee",
+      "size": 5629
+    },
+    {
+      "path": "legacy-src/components/ui/separator.tsx",
+      "sha256": "995c54f1c5c688f712a675fe35d55bcada2b31dba561dcc71553a1ad601e59ec",
+      "size": 770
+    },
+    {
+      "path": "legacy-src/components/ui/sheet.tsx",
+      "sha256": "9051eb9d885a18c0521c63c945480effcfca29282d2a342cb3ce7f9d080c6d38",
+      "size": 4281
+    },
+    {
+      "path": "legacy-src/components/ui/sidebar.tsx",
+      "sha256": "afb358a876a8f77e13604e3b98edcf5809a56623313c97a1237f9c7df3329814",
+      "size": 23256
+    },
+    {
+      "path": "legacy-src/components/ui/skeleton.tsx",
+      "sha256": "a72a9d8fc1c1999b5411a33391c5e70048863c5865629077280e943ca85689a8",
+      "size": 261
+    },
+    {
+      "path": "legacy-src/components/ui/slider.tsx",
+      "sha256": "48bd0ba32cc7f341ecca995374be73111da2f761694cfcf91dbf8d4d9e632c06",
+      "size": 1091
+    },
+    {
+      "path": "legacy-src/components/ui/switch.tsx",
+      "sha256": "2cb63bb07b23867e89b026d82bd7817448511d4c547ec1f251d80f9edb4f4dfc",
+      "size": 1153
+    },
+    {
+      "path": "legacy-src/components/ui/table.tsx",
+      "sha256": "1da243956282c040db49d5718d2f0093a705fbbdfa3a25f51c1a31a069c45093",
+      "size": 2765
+    },
+    {
+      "path": "legacy-src/components/ui/tabs.tsx",
+      "sha256": "0a16955983c96c27e2a315ac3c930f624ff28f41a2815aa17151aa3bc574ebba",
+      "size": 1897
+    },
+    {
+      "path": "legacy-src/components/ui/textarea.tsx",
+      "sha256": "34c44c1e58c91af860baf000f416b5d921b645d868850ef7008acae0620eef0a",
+      "size": 709
+    },
+    {
+      "path": "legacy-src/components/ui/toast.tsx",
+      "sha256": "45f9af4bf527ecf86501fedcf1559b8338f9ad923e7ec817ba590a006a4a610d",
+      "size": 4859
+    },
+    {
+      "path": "legacy-src/components/ui/toaster.tsx",
+      "sha256": "05e5b3eb44dce90b44e42ca3b4bdc582c5f4bf1652e38237ff7276aa6bd66d8f",
+      "size": 786
+    },
+    {
+      "path": "legacy-src/components/ui/tooltip.tsx",
+      "sha256": "e4c39a17833122e02fbe896914e466bf101ea7173dc3d8f18a0201414c74fffc",
+      "size": 1159
+    },
+    {
+      "path": "legacy-src/data/sky-presets.json",
+      "sha256": "9b7c91a8873e19d2dca9c915468ac999f14c1495331098034118b82274726c18",
+      "size": 656
+    },
+    {
+      "path": "legacy-src/data/vfx-presets.json",
+      "sha256": "57410ede878478bbb398e2416be542702b5b4a5f307e0d01049674ca61f0dc49",
+      "size": 1261
+    },
+    {
+      "path": "legacy-src/docs/NOCODE_AGENT_INSTALL_MERGED.md",
+      "sha256": "66eb26352d5a37141a1d43c11a6ee6800b6f5399d897e7d9d39781c383d6eaba",
+      "size": 1142
+    },
+    {
+      "path": "legacy-src/firebase/client-provider.tsx",
+      "sha256": "abc1c674edf341d510e9652476bf5d191e31a689ab285733f1fd2de908a54b13",
+      "size": 765
+    },
+    {
+      "path": "legacy-src/firebase/config.ts",
+      "sha256": "1468b81d38dabcae1475afcd75966b6b4a6fbc30c3d7460da064a2bc54b5065a",
+      "size": 308
+    },
+    {
+      "path": "legacy-src/firebase/error-emitter.ts",
+      "sha256": "0f63ff52d6e351deacd2fc67dd98b4afb48a9919dda5de83c8373b87efe73d4c",
+      "size": 2123
+    },
+    {
+      "path": "legacy-src/firebase/errors.ts",
+      "sha256": "08029cae5d3f6a1fcdaf1b8854d805054584d0c8a680a1f44ce765924d6b40e6",
+      "size": 3583
+    },
+    {
+      "path": "legacy-src/firebase/firestore/use-collection.tsx",
+      "sha256": "30a9a232305d7adc33449fba558c6c46350a58c6415a1361a29d646ab7811e00",
+      "size": 3889
+    },
+    {
+      "path": "legacy-src/firebase/firestore/use-doc.tsx",
+      "sha256": "954a0bac6632824db01684205ed7a7b519f37b668e1e348080db649b11dab860",
+      "size": 2891
+    },
+    {
+      "path": "legacy-src/firebase/index.ts",
+      "sha256": "d58e6381549ab4f1875bbfba7bca719f13e404bd0a5f3acdaccef488870ddff9",
+      "size": 1761
+    },
+    {
+      "path": "legacy-src/firebase/non-blocking-login.tsx",
+      "sha256": "1ce52bc7c07ca519f47969fd21e3992f6f789f1a92cf586e7cbb9af255d33210",
+      "size": 1422
+    },
+    {
+      "path": "legacy-src/firebase/non-blocking-updates.tsx",
+      "sha256": "c344559399312fd3c681fb09bcd063e6ec2acc127888463f86dcb3dc976b154f",
+      "size": 2284
+    },
+    {
+      "path": "legacy-src/firebase/provider.tsx",
+      "sha256": "52e4ee5b2c0400da76f87b8cb1d3b4f8601ca60cf9a7164214bed341220d58d6",
+      "size": 5734
+    },
+    {
+      "path": "legacy-src/firebase/storage/index.ts",
+      "sha256": "4fc551ae8428fbc9238d38c536e436300528f163e556186a0b4ad160be4b6948",
+      "size": 741
+    },
+    {
+      "path": "legacy-src/godot/FirebaseConnector.gd",
+      "sha256": "5f522024171c172d074aa3fff39f9f5d64ce3106a3bc69f96b397bb04dfb6a04",
+      "size": 1617
+    },
+    {
+      "path": "legacy-src/godot/TextureManager.gd",
+      "sha256": "bd75de5333a732c512ff6214cb3bb0f9bd9311f97ad0ef26a80128a6fb252c4a",
+      "size": 591
+    },
+    {
+      "path": "legacy-src/godot/WorldSync.gd",
+      "sha256": "43fae472b72bfafd817b54038adb969bb36e2f203fec6cd6ee8b387e2a63d5c5",
+      "size": 687
+    },
+    {
+      "path": "legacy-src/hooks/use-mobile.tsx",
+      "sha256": "ad0936f84f1df79d3697bfbff9c18f8ad58431c1cbaf2359c6a853b0fcc9f28b",
+      "size": 565
+    },
+    {
+      "path": "legacy-src/hooks/use-toast.ts",
+      "sha256": "03e892344ad170438ccfc156b4ee7ff0be4e535a2939e038f64556ce03b934ed",
+      "size": 3948
+    },
+    {
+      "path": "legacy-src/lib/agent.ts",
+      "sha256": "6f9700cb12725899f4d1f3b394623738c6fdb436fca5dd0bf944bb5527910615",
+      "size": 6896
+    },
+    {
+      "path": "legacy-src/lib/axiomatic-engine.ts",
+      "sha256": "ca57549a26a6d042b3394dc5c01bb6c69b4de0e4d7c7fbf5770e8518c0616ee4",
+      "size": 5693
+    },
+    {
+      "path": "legacy-src/lib/brain/BrainScanner.ts",
+      "sha256": "957c1afbc408ebd22488652aadb834fe2a641437795140438ce4e536b53ae063",
+      "size": 1215
+    },
+    {
+      "path": "legacy-src/lib/brain/FilesystemWatchdog.ts",
+      "sha256": "3626b4ca9e190142baa3b36cdb3f55f051e6bfa5d8efd18db76ce2665391b799",
+      "size": 991
+    },
+    {
+      "path": "legacy-src/lib/brain/GameBrain.ts",
+      "sha256": "e0f126206517abd7046e29b40fcbd9ec26d29be617cc80c0225ed4d959e3d710",
+      "size": 2236
+    },
+    {
+      "path": "legacy-src/lib/brain/cache/CacheManager.ts",
+      "sha256": "85dce4d25eec6509b7b12c8e6e0fdc99a31589315682735131588013e0243217",
+      "size": 713
+    },
+    {
+      "path": "legacy-src/lib/brain/db/PostgresClient.ts",
+      "sha256": "ee36673808d0a18ecca25d894f3fe2d81aa86c43ccb56affc1933520f9ad3f43",
+      "size": 2045
+    },
+    {
+      "path": "legacy-src/lib/brain/llm/GeminiProvider.ts",
+      "sha256": "d24831d24ef387b54cbc639f9859553fc3b4f875cf6c46f1e59abccc24cf0d3d",
+      "size": 670
+    },
+    {
+      "path": "legacy-src/lib/brain/llm/LLMProvider.ts",
+      "sha256": "2d079be5278c28b02c24fa9eb79b7aca52282101d64b341930a509340ae75d5f",
+      "size": 147
+    },
+    {
+      "path": "legacy-src/lib/brain/mcp/MCPClient.ts",
+      "sha256": "6ae2c90273793da0e6bc571909376507d055b0cae64dcb8f7d3a24727cf6f3fa",
+      "size": 753
+    },
+    {
+      "path": "legacy-src/lib/brain/mixer/RepositoryMixer.ts",
+      "sha256": "ebebf12652fca3d749724bd038dfd4837096fa59c5b9f89ca1b244b7bb206eb5",
+      "size": 1253
+    },
+    {
+      "path": "legacy-src/lib/brain/ws/WSServer.ts",
+      "sha256": "d553216e280664702cc26cd87e5386c02a7dc1b26ed33f098bc149e370e5d995",
+      "size": 571
+    },
+    {
+      "path": "legacy-src/lib/interaction-logger.ts",
+      "sha256": "c452b72be463bf39d9749f7e11440e0e7d91ab8ba696af34f988a1130770f56e",
+      "size": 553
+    },
+    {
+      "path": "legacy-src/lib/interaction-system.ts",
+      "sha256": "8212ecca1bbb748f60ae48b924b3a77cb5da41e3991d29623c0310968ea2e36a",
+      "size": 529
+    },
+    {
+      "path": "legacy-src/lib/math-engine.ts",
+      "sha256": "f754f0ec09542aa903a4278fbfe445d0faf08aa7127b677a1c1a8b76ea81350e",
+      "size": 1505
+    },
+    {
+      "path": "legacy-src/lib/placeholder-images.json",
+      "sha256": "58eceb91dafcba02ffe302e8d6636ef1b4e96ce343a6ac4284a76d85c7b3d494",
+      "size": 3775
+    },
+    {
+      "path": "legacy-src/lib/placeholder-images.ts",
+      "sha256": "0ac9596f3764d5038b7fde3a940d3028aca9590c9ae49e3f0f831cc2dffbb82f",
+      "size": 239
+    },
+    {
+      "path": "legacy-src/lib/types.ts",
+      "sha256": "b9863899e907ce5cde8edc08a6eba95909ce08cb89efa140e4cb142e35a11bfd",
+      "size": 738
+    },
+    {
+      "path": "legacy-src/lib/utils.ts",
+      "sha256": "496fad0ec91365f59103d338891764772a7fd631cdaf1ef29cc0e9af1329ed01",
+      "size": 167
+    },
+    {
+      "path": "legacy-src/lib/world-controller.ts",
+      "sha256": "6c07483333348e6cbaed797338a29e87b9a179191323f366bbc824c492d5c889",
+      "size": 1733
+    },
+    {
+      "path": "legacy-src/services/AIService.ts",
+      "sha256": "ef094933501c0703d91fde67f86ea0aef80bbf176655bfcefaf41fa3ddb0922e",
+      "size": 2011
+    },
+    {
+      "path": "legacy-src/services/AdminManager.ts",
+      "sha256": "93846cef10a16d2cced03e78ad0a68cfbeefdf3f24804969ff87d2540c6e9b66",
+      "size": 6119
+    },
+    {
+      "path": "legacy-src/services/AdminSecurityManager.ts",
+      "sha256": "781f43c406b63a9f8196abb8bdea9c1f4f3fd73c95e7571e03644202a4fbf836",
+      "size": 5635
+    },
+    {
+      "path": "legacy-src/services/AgentManager.ts",
+      "sha256": "2436d74b3144377586b93c3edb79e194572bbfb2c3914b978f69c4bb39d2189e",
+      "size": 1559
+    },
+    {
+      "path": "legacy-src/services/AssetResolver.ts",
+      "sha256": "a1ac099e46fe8377ac19de274d85552c082091b4bd47bbd400e2fb1de24a2c42",
+      "size": 2236
+    },
+    {
+      "path": "legacy-src/services/CharacterExportService.ts",
+      "sha256": "8e36e9044436421e1fa242f8cfd0a3333ec6a1871dacd86fdf6028955e143eb8",
+      "size": 1872
+    },
+    {
+      "path": "legacy-src/services/CharacterImporter.ts",
+      "sha256": "d0656684b76a6bd55f09bd35c90b93e17052cd0ed090cf74796b48a7ee9389aa",
+      "size": 3122
+    },
+    {
+      "path": "legacy-src/services/ChunkManager.ts",
+      "sha256": "7737b43bcafa16bb87e9553b51dfeddc943c91c6cce42635e6ba834da862e37b",
+      "size": 1605
+    },
+    {
+      "path": "legacy-src/services/CombatManager.ts",
+      "sha256": "9a55d8447e0786bc3b99718ae4add8dbc6ba430c2367aa3abc73460804986683",
+      "size": 5705
+    },
+    {
+      "path": "legacy-src/services/ComplianceManager.ts",
+      "sha256": "79903fb4b7e54105533ffd7ba2428d803cd0d0b4a89f294a5df5ff2dd366750f",
+      "size": 1598
+    },
+    {
+      "path": "legacy-src/services/ContentAutomationManager.ts",
+      "sha256": "970e05765e15703bb1c49f0ba57af4873937f2f1ecbbca7c575cd45854ebb0f2",
+      "size": 3017
+    },
+    {
+      "path": "legacy-src/services/CraftingManager.ts",
+      "sha256": "327cdb00b271c1d27f37bcb0ddeedf81d30968fa306cc16070661b5f25f381ac",
+      "size": 1819
+    },
+    {
+      "path": "legacy-src/services/DatabaseExportService.ts",
+      "sha256": "47857f1d75ec2b69d1c9dae89111f8de0a559c894b9b65a43dc00c6b0c17d9fa",
+      "size": 2234
+    },
+    {
+      "path": "legacy-src/services/DungeonGenerator.ts",
+      "sha256": "12d51935076b485aa026fb5218b019191789c773dc5959c3bdd84054c75f8b90",
+      "size": 1699
+    },
+    {
+      "path": "legacy-src/services/EconomyManager.ts",
+      "sha256": "ba343f9fb5f0976a025efdb4ffc748b30662ef92778f3502a5d7e0f385af14ee",
+      "size": 1773
+    },
+    {
+      "path": "legacy-src/services/GitHubSyncService.ts",
+      "sha256": "e9cc5798bba25f0f3850f5440eeea315f9fe7efd6243fa2cd8ab4ee79ba8e164",
+      "size": 2635
+    },
+    {
+      "path": "legacy-src/services/GitZipService.ts",
+      "sha256": "35b154f0282d9c94bbc12b6ac735a9a5fa379204e34a42e4926db75ee7a8f97f",
+      "size": 2609
+    },
+    {
+      "path": "legacy-src/services/HeuristicIntelligence.ts",
+      "sha256": "36f3dc33a40b27497221d0cd3da63baf9b3f56150b0752b831924d5d0ea0495d",
+      "size": 3075
+    },
+    {
+      "path": "legacy-src/services/HierarchyManager.ts",
+      "sha256": "46ae2159835bc815bac807cff4d645ccd85cd97cbb63bb1b0fc986ed1e4aec2d",
+      "size": 4184
+    },
+    {
+      "path": "legacy-src/services/InstancedAssetEngine.ts",
+      "sha256": "dd68552ef272321d2e4ca46f0fe802d503ab42417f14ea8441a6d7e794921357",
+      "size": 1613
+    },
+    {
+      "path": "legacy-src/services/InteractionManager.ts",
+      "sha256": "3cf5968cb5ba84662203f597c157117960a58a0a5e83bb0e5b51309362b8f9f9",
+      "size": 1270
+    },
+    {
+      "path": "legacy-src/services/LibraryManager.ts",
+      "sha256": "f82352f4d78c03c3d61da656059980da5154ac198ac27e12ccdf315269648b1b",
+      "size": 1942
+    },
+    {
+      "path": "legacy-src/services/LootManager.ts",
+      "sha256": "db23ac6db5a6c8ed371e3d614987dbff717a6320cc5ace84138aba8746178f96",
+      "size": 3815
+    },
+    {
+      "path": "legacy-src/services/LoreManager.ts",
+      "sha256": "9e0b55ea3c006f27e4316d2d30ff5ecb27cb07caa91812e8232e69a9ec1ab644",
+      "size": 7267
+    },
+    {
+      "path": "legacy-src/services/MaterialEngine.ts",
+      "sha256": "bea308aa23d1d2640bf373534ae6c259490bb5a5312b4afc49b6a93a5b9a9b5b",
+      "size": 2460
+    },
+    {
+      "path": "legacy-src/services/NeuralCacheManager.ts",
+      "sha256": "5aa44bd7c379df323cf9c9fa564ac394626a2c82b940e98c4a1be9f304af9bcd",
+      "size": 1811
+    },
+    {
+      "path": "legacy-src/services/PaypalManager.ts",
+      "sha256": "23fd4738f80fead61e5264274fc40796233ac12ed96fb166ea9f388edfcda913",
+      "size": 5154
+    },
+    {
+      "path": "legacy-src/services/ProceduralQuestEngine.ts",
+      "sha256": "15e2cd03f4784d0946b129b3b75490eb331f83c5995396a044d0f9f450c2fd4a",
+      "size": 4082
+    },
+    {
+      "path": "legacy-src/services/QuestManager.ts",
+      "sha256": "4a8491acfdf970f5d66f5a15d3e583f6e902588d827e6e1774d6caa4344cb695",
+      "size": 4495
+    },
+    {
+      "path": "legacy-src/services/SkillSystem.ts",
+      "sha256": "b096ea5e9a9cc80efb57c0e136d12afc2de524b4fc6f5df6e591412519b800af",
+      "size": 1691
+    },
+    {
+      "path": "legacy-src/services/SoundManager.ts",
+      "sha256": "0009b0936e620239c288cfb0643c5ae32a8c58c81c71f55cd7301e45ba5d7f00",
+      "size": 2358
+    },
+    {
+      "path": "legacy-src/services/TextureEngine.ts",
+      "sha256": "ca44007c91710cb0dfae783f72bfecb9a0af3c1d565c51d09e6f806203d9d830",
+      "size": 4438
+    },
+    {
+      "path": "legacy-src/services/TransactionManager.ts",
+      "sha256": "39c290c5841c951718144753bb26fbd251363d43162d8bd48ee76f5c191a7cb1",
+      "size": 3961
+    },
+    {
+      "path": "legacy-src/services/TransactionWrapper.ts",
+      "sha256": "d88a06cba3e78472f3918aecddc2cb9372ca2f225016ad9fa63d488e26eb1802",
+      "size": 1065
+    },
+    {
+      "path": "legacy-src/services/TrustManager.ts",
+      "sha256": "7a6b5f00ee98ebe0735f4daf48594cd327f834cdb2030849b68bd5777dc7a189",
+      "size": 6003
+    },
+    {
+      "path": "legacy-src/services/VFXEngine.ts",
+      "sha256": "0abc5569436dc264310d8fd2588fb4afd4ee335d99aee6aefdf61a17f3b2c9fa",
+      "size": 5322
+    },
+    {
+      "path": "legacy-src/services/WebSocketService.ts",
+      "sha256": "6ccf9316f9393d239474d698431d5e09d1d49a33385be53599ec41c3de98589d",
+      "size": 2604
+    },
+    {
+      "path": "legacy-src/services/WorldBuildingService.ts",
+      "sha256": "0413d32e5d227f56af9f1e45faadb94833fe26e5b067015754c5b9eb7153417e",
+      "size": 4225
+    },
+    {
+      "path": "legacy-src/services/index.ts",
+      "sha256": "a4645175788484b57f2ab4ef41a5842c311d86bcecaac24fb5fc7c76af32bd00",
+      "size": 525
+    },
+    {
+      "path": "legacy-src/src/integration/HeuristicBrainBridge.ts",
+      "sha256": "604582829c2dbca0125c62ac60354a2d99a95a3d67337f2ca02c37d25471395a",
+      "size": 1785
+    },
+    {
+      "path": "legacy-src/src/integration/README.md",
+      "sha256": "cca5de496303b986dda82878de3ed287730b5f4c25f25fca51a2a6828c19243e",
+      "size": 849
+    },
+    {
+      "path": "legacy-src/src/integration/ServiceFieldAdapter.ts",
+      "sha256": "e35ab79b6b9583b2e2e3be0a64b17ce5584d03778db181cd50114383585ff7ff",
+      "size": 1238
+    },
+    {
+      "path": "legacy-src/store.ts",
+      "sha256": "0c8845a538459e3fe913c104b6375f6d2d01c2b392d05a7f9c0e1db3e4f36630",
+      "size": 11858
+    },
+    {
+      "path": "legacy-src/types.ts",
+      "sha256": "229ee62405dfd91130ea312a592a98acda8eb14748a23562d6e866be57c6b19d",
+      "size": 9533
+    },
+    {
+      "path": "master-runtime/.gitignore",
+      "sha256": "70559453d982dad7aa3ffa52283e996bb85bd856bf81d2f53a031476278954c3",
+      "size": 37
+    },
+    {
+      "path": "master-runtime/README.md",
+      "sha256": "d8be241dc6da85ea092aedc0a36452fff37e16b4a81de584111f07f5e5c1c446",
+      "size": 1471
+    },
+    {
+      "path": "master-runtime/docs/NOCODE_AGENT_INSTALL.md",
+      "sha256": "982fab91507067d36a3728adb5f292a23a42606e51eedb34fb112f45212a885d",
+      "size": 2379
+    },
+    {
+      "path": "master-runtime/package.json",
+      "sha256": "4a62e3083def0037edba0a7139070eebd00d6920653a5f04e1829ddd0204b636",
+      "size": 472
+    },
+    {
+      "path": "master-runtime/public/index.html",
+      "sha256": "b7845e7ff34a9a446773f0edf0985e818b62bac08bccdfdd2fabe0493831fedc",
+      "size": 806
+    },
+    {
+      "path": "master-runtime/public/main.js",
+      "sha256": "b8dfa1fa6121830866caa2e9455ade1fd03236719adb8bbe7da6dfb95e16a0fc",
+      "size": 3702
+    },
+    {
+      "path": "master-runtime/scripts/simulate-brain.js",
+      "sha256": "db324369e08bbc3f3327cb96d3cba4c557379b54352df01169673bb3aef44949",
+      "size": 590
+    },
+    {
+      "path": "master-runtime/src/server/agents/AntiExploitAgent.js",
+      "sha256": "84f626844851742d5dfef055c74d6b975f2b9e302b5508ed0b85c662eef1eb65",
+      "size": 417
+    },
+    {
+      "path": "master-runtime/src/server/agents/BaseAgent.js",
+      "sha256": "ca348175f280eff93ffb143be1895cb1b222ada7a2067b4ecb1b4495380618ff",
+      "size": 109
+    },
+    {
+      "path": "master-runtime/src/server/agents/ChunkStreamingAgent.js",
+      "sha256": "526825c5f6f1acbb02c00eb8faff34fd4ba5d2c725e01b6eb30da306e4336c64",
+      "size": 410
+    },
+    {
+      "path": "master-runtime/src/server/agents/CombatAgent.js",
+      "sha256": "f6f87fb1b2f3825c708a82615bd0aeccd0058f54918e35ee61f1a90012ba6aa1",
+      "size": 372
+    },
+    {
+      "path": "master-runtime/src/server/agents/DungeonAgent.js",
+      "sha256": "bcca3091f6d62a20dc9c92805124c14d409211da628998bf9640d534394f5326",
+      "size": 392
+    },
+    {
+      "path": "master-runtime/src/server/agents/EconomyAgent.js",
+      "sha256": "f3c48643f9ae224019f2157d5ff37e2e905bab81202c5d9957612f255cf93337",
+      "size": 379
+    },
+    {
+      "path": "master-runtime/src/server/agents/EventReactionAgent.js",
+      "sha256": "d335adb6b0df1d34e1df6ca15e8fdbe0424791060762a1f7036c65dd2c93be27",
+      "size": 401
+    },
+    {
+      "path": "master-runtime/src/server/agents/GuildAgent.js",
+      "sha256": "6be5e0f98ae65ec2dd2aaa9ac705b7a1e103b6793ee3116226670c2a1bf38c55",
+      "size": 384
+    },
+    {
+      "path": "master-runtime/src/server/agents/NavigationAgent.js",
+      "sha256": "b5c75e9142b0a007f2f5a99c6efcb63a2082e536fa9da491ec418ac8fbe48e76",
+      "size": 388
+    },
+    {
+      "path": "master-runtime/src/server/agents/QuestAgent.js",
+      "sha256": "464d1ce4873653ba296a2b25d29de5ab7d88f57b7d623508156ffa8650ccd828",
+      "size": 380
+    },
+    {
+      "path": "master-runtime/src/server/agents/ResourceAgent.js",
+      "sha256": "d3b1925c45d71970be065573b14e7c31d8988dd1cf7c414f3a1e1a0d400eeccf",
+      "size": 396
+    },
+    {
+      "path": "master-runtime/src/server/agents/SocialAgent.js",
+      "sha256": "017dce37095efa357382fab2421a3d528278ff028b43a4aded5b63cbecd74284",
+      "size": 384
+    },
+    {
+      "path": "master-runtime/src/server/agents/ThreatAgent.js",
+      "sha256": "dfb4dcc4beca05031b095782ce1292bbd3101d212bcc6350e02b71321fb40961",
+      "size": 374
+    },
+    {
+      "path": "master-runtime/src/server/agents/TradingAgent.js",
+      "sha256": "f305e79e7f24130a1ed739a62a0c0a2147749be584d512fc68259a7ef9c598da",
+      "size": 381
+    },
+    {
+      "path": "master-runtime/src/server/brain/Blackboard.js",
+      "sha256": "30a3040b21d92c34a5a114cb9437fff2a18d5cbbf8bc1656ac659ca91679cf58",
+      "size": 350
+    },
+    {
+      "path": "master-runtime/src/server/brain/Orchestrator.js",
+      "sha256": "2cf19526c6cf118ec950b82f1e73d10a8abaa37f538b7a08d3b00294b3605e08",
+      "size": 1099
+    },
+    {
+      "path": "master-runtime/src/server/brain/WorldBrain.js",
+      "sha256": "7c1e07feb2b2c49fbca04f1d247fa31946f2306ea278d92ff915829701e89095",
+      "size": 1513
+    },
+    {
+      "path": "master-runtime/src/server/index.js",
+      "sha256": "6d244f05d3f515630c846d6aafe5b302677ec0739095915a4aad663f2ff8812f",
+      "size": 637
+    },
+    {
+      "path": "master-runtime/src/server/net/GameServer.js",
+      "sha256": "15fe41f986e31067fd62d90a2af4fe81554d1b8777211746965cc94b6eab841f",
+      "size": 1887
+    },
+    {
+      "path": "master-runtime/src/server/world/ChunkManager.js",
+      "sha256": "5d78ccdd394be30e6bdc8aaff3b78440d8d0afb48d100b453280cdffd361a701",
+      "size": 902
+    },
+    {
+      "path": "master-runtime/src/server/world/GameWorld.js",
+      "sha256": "249682ae6fcafb9dd6a6d81a08f34f67175914572c92cac33d6fc8f8a9c4ce52",
+      "size": 3696
+    },
+    {
+      "path": "master-runtime/src/shared/constants.js",
+      "sha256": "4b19ee8b0cec118b12dae71d425c5b15fb1457ad18420dd22dd290ec82f37b03",
+      "size": 141
+    },
+    {
+      "path": "sources/complete_agent_framework/.gitignore",
+      "sha256": "70559453d982dad7aa3ffa52283e996bb85bd856bf81d2f53a031476278954c3",
+      "size": 37
+    },
+    {
+      "path": "sources/complete_agent_framework/README.md",
+      "sha256": "d8be241dc6da85ea092aedc0a36452fff37e16b4a81de584111f07f5e5c1c446",
+      "size": 1471
+    },
+    {
+      "path": "sources/complete_agent_framework/docs/NOCODE_AGENT_INSTALL.md",
+      "sha256": "982fab91507067d36a3728adb5f292a23a42606e51eedb34fb112f45212a885d",
+      "size": 2379
+    },
+    {
+      "path": "sources/complete_agent_framework/package.json",
+      "sha256": "4a62e3083def0037edba0a7139070eebd00d6920653a5f04e1829ddd0204b636",
+      "size": 472
+    },
+    {
+      "path": "sources/complete_agent_framework/public/index.html",
+      "sha256": "b7845e7ff34a9a446773f0edf0985e818b62bac08bccdfdd2fabe0493831fedc",
+      "size": 806
+    },
+    {
+      "path": "sources/complete_agent_framework/public/main.js",
+      "sha256": "b8dfa1fa6121830866caa2e9455ade1fd03236719adb8bbe7da6dfb95e16a0fc",
+      "size": 3702
+    },
+    {
+      "path": "sources/complete_agent_framework/scripts/simulate-brain.js",
+      "sha256": "db324369e08bbc3f3327cb96d3cba4c557379b54352df01169673bb3aef44949",
+      "size": 590
+    },
+    {
+      "path": "sources/complete_agent_framework/src/server/agents/AntiExploitAgent.js",
+      "sha256": "84f626844851742d5dfef055c74d6b975f2b9e302b5508ed0b85c662eef1eb65",
+      "size": 417
+    },
+    {
+      "path": "sources/complete_agent_framework/src/server/agents/BaseAgent.js",
+      "sha256": "ca348175f280eff93ffb143be1895cb1b222ada7a2067b4ecb1b4495380618ff",
+      "size": 109
+    },
+    {
+      "path": "sources/complete_agent_framework/src/server/agents/ChunkStreamingAgent.js",
+      "sha256": "526825c5f6f1acbb02c00eb8faff34fd4ba5d2c725e01b6eb30da306e4336c64",
+      "size": 410
+    },
+    {
+      "path": "sources/complete_agent_framework/src/server/agents/CombatAgent.js",
+      "sha256": "f6f87fb1b2f3825c708a82615bd0aeccd0058f54918e35ee61f1a90012ba6aa1",
+      "size": 372
+    },
+    {
+      "path": "sources/complete_agent_framework/src/server/agents/DungeonAgent.js",
+      "sha256": "bcca3091f6d62a20dc9c92805124c14d409211da628998bf9640d534394f5326",
+      "size": 392
+    },
+    {
+      "path": "sources/complete_agent_framework/src/server/agents/EconomyAgent.js",
+      "sha256": "f3c48643f9ae224019f2157d5ff37e2e905bab81202c5d9957612f255cf93337",
+      "size": 379
+    },
+    {
+      "path": "sources/complete_agent_framework/src/server/agents/EventReactionAgent.js",
+      "sha256": "d335adb6b0df1d34e1df6ca15e8fdbe0424791060762a1f7036c65dd2c93be27",
+      "size": 401
+    },
+    {
+      "path": "sources/complete_agent_framework/src/server/agents/GuildAgent.js",
+      "sha256": "6be5e0f98ae65ec2dd2aaa9ac705b7a1e103b6793ee3116226670c2a1bf38c55",
+      "size": 384
+    },
+    {
+      "path": "sources/complete_agent_framework/src/server/agents/NavigationAgent.js",
+      "sha256": "b5c75e9142b0a007f2f5a99c6efcb63a2082e536fa9da491ec418ac8fbe48e76",
+      "size": 388
+    },
+    {
+      "path": "sources/complete_agent_framework/src/server/agents/QuestAgent.js",
+      "sha256": "464d1ce4873653ba296a2b25d29de5ab7d88f57b7d623508156ffa8650ccd828",
+      "size": 380
+    },
+    {
+      "path": "sources/complete_agent_framework/src/server/agents/ResourceAgent.js",
+      "sha256": "d3b1925c45d71970be065573b14e7c31d8988dd1cf7c414f3a1e1a0d400eeccf",
+      "size": 396
+    },
+    {
+      "path": "sources/complete_agent_framework/src/server/agents/SocialAgent.js",
+      "sha256": "017dce37095efa357382fab2421a3d528278ff028b43a4aded5b63cbecd74284",
+      "size": 384
+    },
+    {
+      "path": "sources/complete_agent_framework/src/server/agents/ThreatAgent.js",
+      "sha256": "dfb4dcc4beca05031b095782ce1292bbd3101d212bcc6350e02b71321fb40961",
+      "size": 374
+    },
+    {
+      "path": "sources/complete_agent_framework/src/server/agents/TradingAgent.js",
+      "sha256": "f305e79e7f24130a1ed739a62a0c0a2147749be584d512fc68259a7ef9c598da",
+      "size": 381
+    },
+    {
+      "path": "sources/complete_agent_framework/src/server/brain/Blackboard.js",
+      "sha256": "30a3040b21d92c34a5a114cb9437fff2a18d5cbbf8bc1656ac659ca91679cf58",
+      "size": 350
+    },
+    {
+      "path": "sources/complete_agent_framework/src/server/brain/Orchestrator.js",
+      "sha256": "2cf19526c6cf118ec950b82f1e73d10a8abaa37f538b7a08d3b00294b3605e08",
+      "size": 1099
+    },
+    {
+      "path": "sources/complete_agent_framework/src/server/brain/WorldBrain.js",
+      "sha256": "7c1e07feb2b2c49fbca04f1d247fa31946f2306ea278d92ff915829701e89095",
+      "size": 1513
+    },
+    {
+      "path": "sources/complete_agent_framework/src/server/index.js",
+      "sha256": "6d244f05d3f515630c846d6aafe5b302677ec0739095915a4aad663f2ff8812f",
+      "size": 637
+    },
+    {
+      "path": "sources/complete_agent_framework/src/server/net/GameServer.js",
+      "sha256": "15fe41f986e31067fd62d90a2af4fe81554d1b8777211746965cc94b6eab841f",
+      "size": 1887
+    },
+    {
+      "path": "sources/complete_agent_framework/src/server/world/ChunkManager.js",
+      "sha256": "5d78ccdd394be30e6bdc8aaff3b78440d8d0afb48d100b453280cdffd361a701",
+      "size": 902
+    },
+    {
+      "path": "sources/complete_agent_framework/src/server/world/GameWorld.js",
+      "sha256": "249682ae6fcafb9dd6a6d81a08f34f67175914572c92cac33d6fc8f8a9c4ce52",
+      "size": 3696
+    },
+    {
+      "path": "sources/complete_agent_framework/src/shared/constants.js",
+      "sha256": "4b19ee8b0cec118b12dae71d425c5b15fb1457ad18420dd22dd290ec82f37b03",
+      "size": 141
+    },
+    {
+      "path": "sources/legacy_project/src/BRAIN_MERGE_NOTE.md",
+      "sha256": "73c90b2b1b8868c48106c6f86fdf49ea2737dbef5947908d8c42997de70f85c8",
+      "size": 1355
+    },
+    {
+      "path": "sources/legacy_project/src/ai/dev.ts",
+      "sha256": "26c59c7c00ca7b453506fc2169c56723d67924678ebeebb1da79b421b6e24da4",
+      "size": 296
+    },
+    {
+      "path": "sources/legacy_project/src/ai/flows/autonomous-decision-flow.ts",
+      "sha256": "317f85a62bbe669ac9ec1f37581008229290df8168ff1fa3cbae6041f96d3d07",
+      "size": 1684
+    },
+    {
+      "path": "sources/legacy_project/src/ai/flows/content-brain-flow.ts",
+      "sha256": "125edf2c43fcdee5a2ad6a2b5281ec4ffb5f0a1c1ff91b073e3acb7f64278f2d",
+      "size": 2724
+    },
+    {
+      "path": "sources/legacy_project/src/ai/flows/emergent-behavior-flow.ts",
+      "sha256": "f5909e62de30a79c64dfb68eecc5f70d838b8c2c6eded2a161e2ee3d6429cc8a",
+      "size": 1805
+    },
+    {
+      "path": "sources/legacy_project/src/ai/flows/generate-dynamic-quest.ts",
+      "sha256": "bbfe3ac5e5865ae0d39fdbc8edad1f064fd4f63b609a733f339e81bcab32b904",
+      "size": 3757
+    },
+    {
+      "path": "sources/legacy_project/src/ai/flows/generate-npc-personality-flow.ts",
+      "sha256": "43331db848a620991a6085de71d836bf6ca482b9557b965a5aff309fdfa1f229",
+      "size": 1002
+    },
+    {
+      "path": "sources/legacy_project/src/ai/flows/import-agent-flow.ts",
+      "sha256": "8e42699487f4a85d874d4825dd506c29a4fcf71900727bd5734507e461a6f4de",
+      "size": 1147
+    },
+    {
+      "path": "sources/legacy_project/src/ai/flows/project-diagnostics-flow.ts",
+      "sha256": "108193d97646f4246df52db7eb82348d56bcae25db995c84a94fe313be1b90ed",
+      "size": 1146
+    },
+    {
+      "path": "sources/legacy_project/src/ai/flows/youtube-automation-flow.ts",
+      "sha256": "37179de5b2cc352cf994369d0eae7ca8cf4c9dfa9e7009e44e18957fa7ef8434",
+      "size": 1422
+    },
+    {
+      "path": "sources/legacy_project/src/ai/genkit.ts",
+      "sha256": "bb923c451efc57f7ebff318d35ba117112307910dc613d6d931b80d7c74cf104",
+      "size": 478
+    },
+    {
+      "path": "sources/legacy_project/src/app/about/page.tsx",
+      "sha256": "2f22113ccaad6df096e93880189e6591a962f0591a1335af65c1e632804c9349",
+      "size": 3931
+    },
+    {
+      "path": "sources/legacy_project/src/app/admin/audit-logs/page.tsx",
+      "sha256": "9a1f3444018be768f2fd58e6c01f3020f8865ac01c2ba46d7ab8f20556b2054f",
+      "size": 7550
+    },
+    {
+      "path": "sources/legacy_project/src/app/admin/content/page.tsx",
+      "sha256": "29c2fb2622d865ef4d687559591e1c87ddc0b547a76f86e0e75932061d370c35",
+      "size": 12904
+    },
+    {
+      "path": "sources/legacy_project/src/app/admin/lore/page.tsx",
+      "sha256": "d2f64dcc9875dbeb73b056653551e98e8dda9bc0e5cf68ba14e1ca1a8b21d89d",
+      "size": 11044
+    },
+    {
+      "path": "sources/legacy_project/src/app/agents/page.tsx",
+      "sha256": "e82cb214233a526a5a7150b02f0850cf55cbe3a6892d417b1d0c3df3331dbd2c",
+      "size": 10553
+    },
+    {
+      "path": "sources/legacy_project/src/app/api/ai-agent-entry/route.ts",
+      "sha256": "dcb4564e2e8f7654f3bc57e51651a4015e0b69577a087f4cc3375f8a89792270",
+      "size": 1312
+    },
+    {
+      "path": "sources/legacy_project/src/app/api/brain/scan/route.ts",
+      "sha256": "d07793933ad5441a51c70928be19314e1dcba06e82b4a3dbbcc96b37ba28b0e0",
+      "size": 771
+    },
+    {
+      "path": "sources/legacy_project/src/app/assets/page.tsx",
+      "sha256": "efba99e270dce887b083050b24a9e5a9484c0eed801626fbfecd56fceb68dada",
+      "size": 17444
+    },
+    {
+      "path": "sources/legacy_project/src/app/character-creator/page.tsx",
+      "sha256": "d2b83c0c998b12989bb3d5ad2aa0004511e1dbabdd881d899940aba9fd66a112",
+      "size": 14829
+    },
+    {
+      "path": "sources/legacy_project/src/app/contact/page.tsx",
+      "sha256": "12def87e9d135711a0bc43c66dd7f26aecac2e6495cf20c98f7dbd4ff568e466",
+      "size": 3015
+    },
+    {
+      "path": "sources/legacy_project/src/app/dashboard/brain/page.tsx",
+      "sha256": "275bcaa2c2351700d010c6893f3439f5bf6b0cdbbcd4f7ee1bc86d2579a9a7c7",
+      "size": 11679
+    },
+    {
+      "path": "sources/legacy_project/src/app/dashboard/layout.tsx",
+      "sha256": "6d32504e67b1736c875c78042d4dbb54c21fda452b69403edc1508a9a70f73f3",
+      "size": 2263
+    },
+    {
+      "path": "sources/legacy_project/src/app/dashboard/molecules/page.tsx",
+      "sha256": "3ab523d23ec68d15f1c4ec93f34a53096b51935652122f40e482267079d773a3",
+      "size": 5503
+    },
+    {
+      "path": "sources/legacy_project/src/app/dashboard/page.tsx",
+      "sha256": "f688700cd7b6cb84817a49b5d1e22e399bcb4b0fdcf2b1bade120306b829f961",
+      "size": 10263
+    },
+    {
+      "path": "sources/legacy_project/src/app/economy/page.tsx",
+      "sha256": "6025691404c5ade375793b7fdb801fdb80dfd0894903df0d0268ba7e2b04bd6d",
+      "size": 5720
+    },
+    {
+      "path": "sources/legacy_project/src/app/favicon.ico",
+      "sha256": "5c56c5e3c4c59c06e0ba3fdb0f551bc1161564e716a614159e57d18077fcfae0",
+      "size": 15086
+    },
+    {
+      "path": "sources/legacy_project/src/app/globals.css",
+      "sha256": "b45f998bdb0fc13553672bc0ae06533cb84eff6b4f3b7de666b31bee1e7fb814",
+      "size": 2972
+    },
+    {
+      "path": "sources/legacy_project/src/app/godot/page.tsx",
+      "sha256": "038dffdd3b6b0d458ced7edde958ff30f15263e6b8c573525ce281e23e589b55",
+      "size": 7664
+    },
+    {
+      "path": "sources/legacy_project/src/app/landing/page.tsx",
+      "sha256": "8141dc663785d3fa6ba875791407b8b62212c5483d54ff4379f80aaa7418b5bc",
+      "size": 99
+    },
+    {
+      "path": "sources/legacy_project/src/app/layout.tsx",
+      "sha256": "5b2bb0e2cd22ef142f9a41e6beabd9b889635e6875e187f627b07709cae783ec",
+      "size": 933
+    },
+    {
+      "path": "sources/legacy_project/src/app/npcs/page.tsx",
+      "sha256": "d52b0cd326b14d9813f6c0451125fed25f92d224f66513149ea22294817c6b7e",
+      "size": 9450
+    },
+    {
+      "path": "sources/legacy_project/src/app/page.tsx",
+      "sha256": "69bb4e1ad99e39f065d55e85f70304e15ce2ad1e364f8755a54d6538cb3a39b0",
+      "size": 12205
+    },
+    {
+      "path": "sources/legacy_project/src/app/pilot-hub/page.tsx",
+      "sha256": "12cc9c7d1bc3e8fd6fe63e4f9c9acd69f07841e6d6c9386ae4d214f4fde12df6",
+      "size": 8248
+    },
+    {
+      "path": "sources/legacy_project/src/app/players/page.tsx",
+      "sha256": "0030aedbc60366771de59196e5577238aeae36def440e5ef27e55a052b67d1ab",
+      "size": 8277
+    },
+    {
+      "path": "sources/legacy_project/src/app/profile/page.tsx",
+      "sha256": "6d091ecd7d4d41be375597defe8a71fa7328ffac1677b62b1bd83411f4653bce",
+      "size": 5783
+    },
+    {
+      "path": "sources/legacy_project/src/app/quests/page.tsx",
+      "sha256": "21c0fedd705fe4c5d615ea2d4921649585bb7dbb1a5390b03887956e5e8bc596",
+      "size": 13004
+    },
+    {
+      "path": "sources/legacy_project/src/app/settings/page.tsx",
+      "sha256": "8519240ca3de6bde4e0c6d3d10f5cc45320f5d093d3fd851f1d2e5ca1da90d6b",
+      "size": 10217
+    },
+    {
+      "path": "sources/legacy_project/src/app/store/page.tsx",
+      "sha256": "c03d04b220fec9662d844e568db2b32f270c6809be75c768842085c085959606",
+      "size": 6099
+    },
+    {
+      "path": "sources/legacy_project/src/app/world-preview/page.tsx",
+      "sha256": "704f03183e414782015428fc8c5383f4456fab4ebe03c1f7dff3b5f09f3c72a0",
+      "size": 6117
+    },
+    {
+      "path": "sources/legacy_project/src/backend/index.ts",
+      "sha256": "22515c7c4133e7a7ef93ce2481e050438fdafe7cccb16589c9000e5a0758cebd",
+      "size": 2681
+    },
+    {
+      "path": "sources/legacy_project/src/brain-framework/.gitignore",
+      "sha256": "70559453d982dad7aa3ffa52283e996bb85bd856bf81d2f53a031476278954c3",
+      "size": 37
+    },
+    {
+      "path": "sources/legacy_project/src/brain-framework/README.md",
+      "sha256": "5f2514850838110f99d44e12ba4354cfd2cfe590eb14082f4b85700c36ade31b",
+      "size": 218
+    },
+    {
+      "path": "sources/legacy_project/src/brain-framework/package.json",
+      "sha256": "12601c461bc144f126442ad64efa5bc047ca88aaacd95ce9e08dd4b22406c512",
+      "size": 302
+    },
+    {
+      "path": "sources/legacy_project/src/brain-framework/public/dashboard.html",
+      "sha256": "b628b6632d6f5e1b79b3acda73609c875496fcee7baf0956220f2b94b348117b",
+      "size": 1009
+    },
+    {
+      "path": "sources/legacy_project/src/brain-framework/public/dashboard.js",
+      "sha256": "ee42ff25a1c4fd469d37047e844f2389ab1d23c795cc0e1d70facb95bc10952c",
+      "size": 703
+    },
+    {
+      "path": "sources/legacy_project/src/brain-framework/public/index.html",
+      "sha256": "c24a1a54df797d369a835b96d55ac859fc8d61a819712a391afb178a0c04c7b3",
+      "size": 1268
+    },
+    {
+      "path": "sources/legacy_project/src/brain-framework/public/main.js",
+      "sha256": "f8b3108ae88b52f45be33e9a2f98888206e5ba6f9e2d3a944d74b985b33d4c29",
+      "size": 4116
+    },
+    {
+      "path": "sources/legacy_project/src/brain-framework/scripts/simulate-brain.js",
+      "sha256": "c0c04e2777a3488673f502e9101d1f2b11dc09955d84a2a1d3597ab2cf2d9cf3",
+      "size": 554
+    },
+    {
+      "path": "sources/legacy_project/src/brain-framework/src/server/agents/AntiExploitAgent.js",
+      "sha256": "e51c9329fb5468a8645ece7ec75e6a5f88ff79281bdafc5903686ff4bdf98e15",
+      "size": 375
+    },
+    {
+      "path": "sources/legacy_project/src/brain-framework/src/server/agents/BaseAgent.js",
+      "sha256": "b4e7c108b018df4917b9544feea579ba0e3b65e7503fa4fb475e0d89c544c3a2",
+      "size": 102
+    },
+    {
+      "path": "sources/legacy_project/src/brain-framework/src/server/agents/ChunkStreamingAgent.js",
+      "sha256": "79cc05c5d7bf3de632f784734701f3fbccac5672fcaa99e4bb5695b97c9010d9",
+      "size": 381
+    },
+    {
+      "path": "sources/legacy_project/src/brain-framework/src/server/agents/CombatAgent.js",
+      "sha256": "91a3ca9cffcdbbc5951d0fc3b8b04adad847bbc626aadab27086e85bc22402c4",
+      "size": 329
+    },
+    {
+      "path": "sources/legacy_project/src/brain-framework/src/server/agents/DungeonAgent.js",
+      "sha256": "306eed2b429a5fa5f4fe84649bb508d6bf2ed0c292344ea26fdc43efa7d40b0e",
+      "size": 350
+    },
+    {
+      "path": "sources/legacy_project/src/brain-framework/src/server/agents/EconomyAgent.js",
+      "sha256": "8881ef0b3ca31278adda557060d0ed55829c3bbf499c9741ca6e41ac5925e242",
+      "size": 337
+    },
+    {
+      "path": "sources/legacy_project/src/brain-framework/src/server/agents/EventReactionAgent.js",
+      "sha256": "919f72b35d429d4c99500310c297fec94887bbdd32a020b2298b8d98bceeefe8",
+      "size": 359
+    },
+    {
+      "path": "sources/legacy_project/src/brain-framework/src/server/agents/GuildAgent.js",
+      "sha256": "e8e3c2448b281171e5802bbbb29592a50e1b78950115ca3661f7652149f9afaa",
+      "size": 341
+    },
+    {
+      "path": "sources/legacy_project/src/brain-framework/src/server/agents/NavigationAgent.js",
+      "sha256": "56a1f00572cf85a55441758f5150b785680bb9bc48c2fad900ffe0205906cd9e",
+      "size": 346
+    },
+    {
+      "path": "sources/legacy_project/src/brain-framework/src/server/agents/QuestAgent.js",
+      "sha256": "61c323515372f5cd1725428e56d94162334d1446964131b4eecf010bf7d02f22",
+      "size": 338
+    },
+    {
+      "path": "sources/legacy_project/src/brain-framework/src/server/agents/ResourceAgent.js",
+      "sha256": "1ddf8def56aa8ee477fff3a48ec563491faf9760c6c4b46eb27fc9a1f10b2bfe",
+      "size": 354
+    },
+    {
+      "path": "sources/legacy_project/src/brain-framework/src/server/agents/SocialAgent.js",
+      "sha256": "337542c6d57ead092ef72a14fe8a4c3d26714d50bc77a320fd4fe93300329571",
+      "size": 341
+    },
+    {
+      "path": "sources/legacy_project/src/brain-framework/src/server/agents/ThreatAgent.js",
+      "sha256": "fc8495c5fbae7ba7f5da8637ef244392a48f74d8afc6398f909be25a9579d630",
+      "size": 333
+    },
+    {
+      "path": "sources/legacy_project/src/brain-framework/src/server/agents/TradingAgent.js",
+      "sha256": "0814bc8391cef0b72aa364072c2ec9d0ca8d619f5f315843bdab85e9b73c0cdb",
+      "size": 340
+    },
+    {
+      "path": "sources/legacy_project/src/brain-framework/src/server/brain/Blackboard.js",
+      "sha256": "68874c51ef7127397278d554d0eb38839a0e1fda740430b69f35e32d74c17f10",
+      "size": 172
+    },
+    {
+      "path": "sources/legacy_project/src/brain-framework/src/server/brain/Orchestrator.js",
+      "sha256": "de0a7488221444d616fdd6bbac8cc7fe0d4697ed9a639ef42f57a54f30c2c59d",
+      "size": 1012
+    },
+    {
+      "path": "sources/legacy_project/src/brain-framework/src/server/brain/WorldBrain.js",
+      "sha256": "0ec8d2201f690efa96668c49571df0c31f957328fe2371b24d71682c4b7c6274",
+      "size": 1514
+    },
+    {
+      "path": "sources/legacy_project/src/brain-framework/src/server/index.js",
+      "sha256": "6d86d84246a8125283f821ab2469827f3c55240119ad088a7912d871520fb8bb",
+      "size": 622
+    },
+    {
+      "path": "sources/legacy_project/src/brain-framework/src/server/net/GameServer.js",
+      "sha256": "b4c82db1594f466d00f007c5504abb78c450ee5d2bf0ad9902182a53485d91e9",
+      "size": 2142
+    },
+    {
+      "path": "sources/legacy_project/src/brain-framework/src/server/world/ChunkManager.js",
+      "sha256": "fadfdb00ab57bd9dde1acf984633b9b1a6cb751df7ee9aaafcf651c28c3e19b1",
+      "size": 717
+    },
+    {
+      "path": "sources/legacy_project/src/brain-framework/src/server/world/GameWorld.js",
+      "sha256": "e3dfb38ae6dad5d2b936f754a28e67e38dcf4a623b7af6dcdf64849486796e45",
+      "size": 6465
+    },
+    {
+      "path": "sources/legacy_project/src/brain-framework/src/shared/constants.js",
+      "sha256": "9dcbced1ce84b3163d18d7c3bda6bb905539c5a9204107f8a987561733749018",
+      "size": 240
+    },
+    {
+      "path": "sources/legacy_project/src/components/FirebaseErrorListener.tsx",
+      "sha256": "921636d647f162af90e29ff60b13143f1c2c56afc8c217ac56b3124ea3815704",
+      "size": 1286
+    },
+    {
+      "path": "sources/legacy_project/src/components/auth/AuthModal.tsx",
+      "sha256": "659707a2cec28998357a405e1949fa03e27208bea75f09c3a1c72dab6d5378a7",
+      "size": 4895
+    },
+    {
+      "path": "sources/legacy_project/src/components/game/AnimationSystem.ts",
+      "sha256": "5f912843002062540d72f8165e28cf9ae465b37d029d7470a904f76a0fdd8f09",
+      "size": 5149
+    },
+    {
+      "path": "sources/legacy_project/src/components/game/AxiomHandshakeModal.tsx",
+      "sha256": "ea48f75a382af8c1fd989f9cd78ed34b0c77227a9dd3c67ba1cc709e4c82458b",
+      "size": 4677
+    },
+    {
+      "path": "sources/legacy_project/src/components/game/AxiomShader.ts",
+      "sha256": "a76594a24dd246f9214d456a2fee03244394134bd9eaabb4177a4d51d9d1f689",
+      "size": 1777
+    },
+    {
+      "path": "sources/legacy_project/src/components/game/CharacterManifestationPreview.tsx",
+      "sha256": "adfb4557aae0f27c83ce9b4c9a5414a3d00b1a92e56c54457748d97eb06a8ce9",
+      "size": 1859
+    },
+    {
+      "path": "sources/legacy_project/src/components/game/EquipmentRenderer.ts",
+      "sha256": "b8e3b291470082fa1c20b29a57a54fd10db4aa0fe0e235906cc3dea42adf5fdc",
+      "size": 5839
+    },
+    {
+      "path": "sources/legacy_project/src/components/game/HumanoidModel.ts",
+      "sha256": "5f477c6bd6ce972d92902defd530c300e72556c50117a5fbec307316b977e385",
+      "size": 9073
+    },
+    {
+      "path": "sources/legacy_project/src/components/game/MobileControls.tsx",
+      "sha256": "30a18aad9023a8b7cbd2596ff44d753fbc806c734b8d46ede557764c9335fdfb",
+      "size": 3038
+    },
+    {
+      "path": "sources/legacy_project/src/components/game/SimulationManager.tsx",
+      "sha256": "3464c99ad4672235e7ab2779e4439b66bf22431a4177c1a547ff3c2246d9398b",
+      "size": 2348
+    },
+    {
+      "path": "sources/legacy_project/src/components/game/World3D.tsx",
+      "sha256": "ef473343cc950e65e291e1a5c8e2e27c651988430380bdafa1da9692960a9910",
+      "size": 13410
+    },
+    {
+      "path": "sources/legacy_project/src/components/layout/AppSidebar.tsx",
+      "sha256": "5d77a960df9281bcfa7346541e348e32e417fcda4d6ae4da979daf87a31b8eb5",
+      "size": 7744
+    },
+    {
+      "path": "sources/legacy_project/src/components/layout/Header.tsx",
+      "sha256": "3cd41b5dec413879e0df9429dfc3ce3b06d863b88d4597b633a90e8f4f2d2bbc",
+      "size": 4651
+    },
+    {
+      "path": "sources/legacy_project/src/components/layout/RootProviders.tsx",
+      "sha256": "6a3c9ed7e9f24efc2cc36aa9caf96b0f2fc6da5d4e357bc2ee66af9089912e93",
+      "size": 1500
+    },
+    {
+      "path": "sources/legacy_project/src/components/ui/AdminAssetManager.tsx",
+      "sha256": "c8546777d432f50e0c5310a09df5a9acd299a49d6a3150a22ffe94a65df4082c",
+      "size": 36312
+    },
+    {
+      "path": "sources/legacy_project/src/components/ui/AdminDashboard.tsx",
+      "sha256": "f42531da3b1abcdc24ffbd454dccf771c3e9c9fb0d479050d9dda81ade5ade8a",
+      "size": 16640
+    },
+    {
+      "path": "sources/legacy_project/src/components/ui/AdminQuestManager.tsx",
+      "sha256": "be51d2973021e37787f8e5c6b35c0bdf0f4bd2abb86c93022eff5918320ca02a",
+      "size": 35206
+    },
+    {
+      "path": "sources/legacy_project/src/components/ui/AdminShopManager.tsx",
+      "sha256": "63cf8b2c48d484a2fe08f985c759ce765190ea1897c526cd6662d592ffe5874f",
+      "size": 15565
+    },
+    {
+      "path": "sources/legacy_project/src/components/ui/AgentHUD.tsx",
+      "sha256": "7a8e5c4befd6ca9300275b47641dd6e92f7e309129047f5ea72bbdef7e3d13ca",
+      "size": 16969
+    },
+    {
+      "path": "sources/legacy_project/src/components/ui/AgentManagerOverlay.tsx",
+      "sha256": "8b50f3aa4256edeaa6169cc65e746fc16550c435a17733d68dadfc7a611e51f7",
+      "size": 14438
+    },
+    {
+      "path": "sources/legacy_project/src/components/ui/AgentMemoryDisplay.tsx",
+      "sha256": "2ec5ce13f70a86656a78d0782255776f6c514da2ed0aec2cd22076b1621bece5",
+      "size": 4527
+    },
+    {
+      "path": "sources/legacy_project/src/components/ui/AuctionHouseOverlay.tsx",
+      "sha256": "115206e961a2f7f40580297828902aeff736ac6ca15f306b658786c598cc943c",
+      "size": 6513
+    },
+    {
+      "path": "sources/legacy_project/src/components/ui/AxiomDebugger.tsx",
+      "sha256": "55280b7cd1a56f92dcf02069f081c8579b947b0ec70841d0ee285f334e8d6671",
+      "size": 12237
+    },
+    {
+      "path": "sources/legacy_project/src/components/ui/AxiomaticOverlay.tsx",
+      "sha256": "a86b2b2c4883735f065002b6856c5dc4517f16d6292dd71dfc18fc19d589a228",
+      "size": 4738
+    },
+    {
+      "path": "sources/legacy_project/src/components/ui/BiomeControls.tsx",
+      "sha256": "821d281434c9f3869d4eef19beaecbae6e84e240bb83ec277e66049420e1536e",
+      "size": 1625
+    },
+    {
+      "path": "sources/legacy_project/src/components/ui/CharacterCreation.tsx",
+      "sha256": "80e37910a43437cb1dd20a153ab7cbabfd8819374d4ac29592be23ef46bc4a37",
+      "size": 14078
+    },
+    {
+      "path": "sources/legacy_project/src/components/ui/CharacterSheet.tsx",
+      "sha256": "27f9085778d6fb31c4a7b4f5f8f6d34a00d31a3b9b38711a9e590e92f8ec2e6f",
+      "size": 27042
+    },
+    {
+      "path": "sources/legacy_project/src/components/ui/ChatConsole.tsx",
+      "sha256": "6bd70737e9d1763578e0f6cb28702aeb536a8a9247d8519db6c4419601d56de8",
+      "size": 4041
+    },
+    {
+      "path": "sources/legacy_project/src/components/ui/ChatLog.tsx",
+      "sha256": "626f041bf1bf6af396be2cda2904d27a66e512fc0f679a37e0e8e05dac2b62f3",
+      "size": 3529
+    },
+    {
+      "path": "sources/legacy_project/src/components/ui/EmergenceAdminMenu.tsx",
+      "sha256": "fb565c86498ab7522d1d07b83ec6ce7d77f15c2c47d4dd89339c64a0280efb73",
+      "size": 10035
+    },
+    {
+      "path": "sources/legacy_project/src/components/ui/EmergentBehaviorMonitor.tsx",
+      "sha256": "9826e1e0818c56bb0d3a9599a64e869373016e99b489b1dd92d41b05786996e9",
+      "size": 5773
+    },
+    {
+      "path": "sources/legacy_project/src/components/ui/EnergyShopOverlay.tsx",
+      "sha256": "b5cc55f86fbc6ad88f0f2d3bc0f561a4ad001f15bac5feb7f618e4b244672422",
+      "size": 5246
+    },
+    {
+      "path": "sources/legacy_project/src/components/ui/MatrixTerminal.tsx",
+      "sha256": "fcb9107b9cc0dcd70399360b7f1a65ff8891967dd80718ad8611963f0d822f14",
+      "size": 3457
+    },
+    {
+      "path": "sources/legacy_project/src/components/ui/PayPalModal.tsx",
+      "sha256": "a8289cf0f4878f00cae0302096f69f49862682d7a623cb098a7b401e53475eec",
+      "size": 2478
+    },
+    {
+      "path": "sources/legacy_project/src/components/ui/QuestBoardOverlay.tsx",
+      "sha256": "f401f332f9e8add738638345b0e965f7ada41b89c9503600f6c0cb688cbec493",
+      "size": 4104
+    },
+    {
+      "path": "sources/legacy_project/src/components/ui/ShaderController.tsx",
+      "sha256": "bfb746ae29031fa3ff4a415d10308363a4661bdc35cde14e5bc47e94177c59a5",
+      "size": 3765
+    },
+    {
+      "path": "sources/legacy_project/src/components/ui/SkillBar.tsx",
+      "sha256": "8a7d2de42a94877e7945d72242cb8c1d5513fefa8cbe04c822e9541cbbfa5e97",
+      "size": 2756
+    },
+    {
+      "path": "sources/legacy_project/src/components/ui/TaskComponent.tsx",
+      "sha256": "6ccd3d4b0932f55a61d8161713268aaa42e39acfa62a1ca92746f9429af1e5cb",
+      "size": 5510
+    },
+    {
+      "path": "sources/legacy_project/src/components/ui/WorldMap.tsx",
+      "sha256": "175069741242a6f6ec9bef6d2027c12cf4df5bf1c4071171888e02ecaa53cf46",
+      "size": 2116
+    },
+    {
+      "path": "sources/legacy_project/src/components/ui/accordion.tsx",
+      "sha256": "1cc98c2ab5106d8d476f1da4aa8dd535198a8113513b2c918938ea76d90bbbc9",
+      "size": 1991
+    },
+    {
+      "path": "sources/legacy_project/src/components/ui/alert-dialog.tsx",
+      "sha256": "2ede53a17b342a8265b924563f08d352dc7358a91585b0332b3d4a055b692407",
+      "size": 4434
+    },
+    {
+      "path": "sources/legacy_project/src/components/ui/alert.tsx",
+      "sha256": "ed78a053a9db783f48d5dfab7398b630f87c17ed2e237b6f30a3eb153675960c",
+      "size": 1584
+    },
+    {
+      "path": "sources/legacy_project/src/components/ui/avatar.tsx",
+      "sha256": "e78b35ed76c67d8ff50603fbe0dfa4fe600097bd860d89e65beea3e16683dad8",
+      "size": 1419
+    },
+    {
+      "path": "sources/legacy_project/src/components/ui/badge.tsx",
+      "sha256": "db977d821af56ae3fb7952182d9c0a076a10c75c38bc2d2b000827e720423d32",
+      "size": 1128
+    },
+    {
+      "path": "sources/legacy_project/src/components/ui/button.tsx",
+      "sha256": "415ccc47cf69a2a87db699cc6da7f1fdcb799a1f40dab3a6220d91ac8da8abbe",
+      "size": 1901
+    },
+    {
+      "path": "sources/legacy_project/src/components/ui/calendar.tsx",
+      "sha256": "60bc1412b70b3e62b6be56f729d4b6458a85ca8b34bfc1b74228d488dfbb14d2",
+      "size": 2709
+    },
+    {
+      "path": "sources/legacy_project/src/components/ui/card.tsx",
+      "sha256": "69afcf9c8e58ca6c3acf43c5b1ec9186bb6c88952f0ff49345dd2666f93d5480",
+      "size": 1858
+    },
+    {
+      "path": "sources/legacy_project/src/components/ui/carousel.tsx",
+      "sha256": "69686986376cbc02a5f907b1ca8a7a759808c4e8df1200517c57ec749e8484cd",
+      "size": 6224
+    },
+    {
+      "path": "sources/legacy_project/src/components/ui/chart.tsx",
+      "sha256": "77ac45c5dc42e4d55ae964bf2589cfa823d0f5be3961f5b8a97a82dde90b7a28",
+      "size": 10479
+    },
+    {
+      "path": "sources/legacy_project/src/components/ui/checkbox.tsx",
+      "sha256": "870e9819040c04fe40dd869b1076f908c63661fae5c627d657d759e4532c2334",
+      "size": 1070
+    },
+    {
+      "path": "sources/legacy_project/src/components/ui/collapsible.tsx",
+      "sha256": "f4cdd104de29928bfcd40b865c7d08eed9157a537fbb8b5e6d0921f02b63cc04",
+      "size": 329
+    },
+    {
+      "path": "sources/legacy_project/src/components/ui/dialog.tsx",
+      "sha256": "60d5246653c714fc12a67743ee5951331ecd2548cdaef9a599922bcb14da26db",
+      "size": 3848
+    },
+    {
+      "path": "sources/legacy_project/src/components/ui/dropdown-menu.tsx",
+      "sha256": "ca0802c2e73d06aaca91242e6c2edb5451168c37770d2675bf98245d6f7f2517",
+      "size": 7433
+    },
+    {
+      "path": "sources/legacy_project/src/components/ui/form.tsx",
+      "sha256": "0d812c11a1afa799fb2bfa8f1e11052eacb64252c4b52be969a5f89aae1f52fb",
+      "size": 4120
+    },
+    {
+      "path": "sources/legacy_project/src/components/ui/input.tsx",
+      "sha256": "b326e2af874b14aa2ac18096ddbec512c6258f3fafc20ba6c8262818d48e6a5b",
+      "size": 791
+    },
+    {
+      "path": "sources/legacy_project/src/components/ui/label.tsx",
+      "sha256": "2eac8fbb04002c42b0fbc4062d20d131e421796eaf65c37d2049e29e42ecbc5a",
+      "size": 724
+    },
+    {
+      "path": "sources/legacy_project/src/components/ui/menubar.tsx",
+      "sha256": "cc9eca19634c19ba2ff5bf5978452ee7969f15ea6dd61554a4cde1b1a788a48d",
+      "size": 8505
+    },
+    {
+      "path": "sources/legacy_project/src/components/ui/popover.tsx",
+      "sha256": "8a10fdf10a500f709581fb49690c3a86c82d07db969266ee47bcad6f0c2782e5",
+      "size": 1244
+    },
+    {
+      "path": "sources/legacy_project/src/components/ui/progress.tsx",
+      "sha256": "8c036da4baed076de68d27719929dc98151a81b51456bfa6a2488d835303b1d7",
+      "size": 791
+    },
+    {
+      "path": "sources/legacy_project/src/components/ui/radio-group.tsx",
+      "sha256": "4e0515412cad83083f8b13e0f8f6bbdd4dd74d4156601f969a353a822de66a50",
+      "size": 1481
+    },
+    {
+      "path": "sources/legacy_project/src/components/ui/scroll-area.tsx",
+      "sha256": "edbaecbc4f5cb6e16ecb39d3678d81b26e1a968dfc273dbb77821de3c8626377",
+      "size": 1656
+    },
+    {
+      "path": "sources/legacy_project/src/components/ui/select.tsx",
+      "sha256": "1aba9cfb792bfa02b0fc8764dfd524d23e2191367863545963940034f61526ee",
+      "size": 5629
+    },
+    {
+      "path": "sources/legacy_project/src/components/ui/separator.tsx",
+      "sha256": "995c54f1c5c688f712a675fe35d55bcada2b31dba561dcc71553a1ad601e59ec",
+      "size": 770
+    },
+    {
+      "path": "sources/legacy_project/src/components/ui/sheet.tsx",
+      "sha256": "9051eb9d885a18c0521c63c945480effcfca29282d2a342cb3ce7f9d080c6d38",
+      "size": 4281
+    },
+    {
+      "path": "sources/legacy_project/src/components/ui/sidebar.tsx",
+      "sha256": "afb358a876a8f77e13604e3b98edcf5809a56623313c97a1237f9c7df3329814",
+      "size": 23256
+    },
+    {
+      "path": "sources/legacy_project/src/components/ui/skeleton.tsx",
+      "sha256": "a72a9d8fc1c1999b5411a33391c5e70048863c5865629077280e943ca85689a8",
+      "size": 261
+    },
+    {
+      "path": "sources/legacy_project/src/components/ui/slider.tsx",
+      "sha256": "48bd0ba32cc7f341ecca995374be73111da2f761694cfcf91dbf8d4d9e632c06",
+      "size": 1091
+    },
+    {
+      "path": "sources/legacy_project/src/components/ui/switch.tsx",
+      "sha256": "2cb63bb07b23867e89b026d82bd7817448511d4c547ec1f251d80f9edb4f4dfc",
+      "size": 1153
+    },
+    {
+      "path": "sources/legacy_project/src/components/ui/table.tsx",
+      "sha256": "1da243956282c040db49d5718d2f0093a705fbbdfa3a25f51c1a31a069c45093",
+      "size": 2765
+    },
+    {
+      "path": "sources/legacy_project/src/components/ui/tabs.tsx",
+      "sha256": "0a16955983c96c27e2a315ac3c930f624ff28f41a2815aa17151aa3bc574ebba",
+      "size": 1897
+    },
+    {
+      "path": "sources/legacy_project/src/components/ui/textarea.tsx",
+      "sha256": "34c44c1e58c91af860baf000f416b5d921b645d868850ef7008acae0620eef0a",
+      "size": 709
+    },
+    {
+      "path": "sources/legacy_project/src/components/ui/toast.tsx",
+      "sha256": "45f9af4bf527ecf86501fedcf1559b8338f9ad923e7ec817ba590a006a4a610d",
+      "size": 4859
+    },
+    {
+      "path": "sources/legacy_project/src/components/ui/toaster.tsx",
+      "sha256": "05e5b3eb44dce90b44e42ca3b4bdc582c5f4bf1652e38237ff7276aa6bd66d8f",
+      "size": 786
+    },
+    {
+      "path": "sources/legacy_project/src/components/ui/tooltip.tsx",
+      "sha256": "e4c39a17833122e02fbe896914e466bf101ea7173dc3d8f18a0201414c74fffc",
+      "size": 1159
+    },
+    {
+      "path": "sources/legacy_project/src/data/sky-presets.json",
+      "sha256": "9b7c91a8873e19d2dca9c915468ac999f14c1495331098034118b82274726c18",
+      "size": 656
+    },
+    {
+      "path": "sources/legacy_project/src/data/vfx-presets.json",
+      "sha256": "57410ede878478bbb398e2416be542702b5b4a5f307e0d01049674ca61f0dc49",
+      "size": 1261
+    },
+    {
+      "path": "sources/legacy_project/src/docs/NOCODE_AGENT_INSTALL_MERGED.md",
+      "sha256": "66eb26352d5a37141a1d43c11a6ee6800b6f5399d897e7d9d39781c383d6eaba",
+      "size": 1142
+    },
+    {
+      "path": "sources/legacy_project/src/firebase/client-provider.tsx",
+      "sha256": "abc1c674edf341d510e9652476bf5d191e31a689ab285733f1fd2de908a54b13",
+      "size": 765
+    },
+    {
+      "path": "sources/legacy_project/src/firebase/config.ts",
+      "sha256": "1468b81d38dabcae1475afcd75966b6b4a6fbc30c3d7460da064a2bc54b5065a",
+      "size": 308
+    },
+    {
+      "path": "sources/legacy_project/src/firebase/error-emitter.ts",
+      "sha256": "0f63ff52d6e351deacd2fc67dd98b4afb48a9919dda5de83c8373b87efe73d4c",
+      "size": 2123
+    },
+    {
+      "path": "sources/legacy_project/src/firebase/errors.ts",
+      "sha256": "08029cae5d3f6a1fcdaf1b8854d805054584d0c8a680a1f44ce765924d6b40e6",
+      "size": 3583
+    },
+    {
+      "path": "sources/legacy_project/src/firebase/firestore/use-collection.tsx",
+      "sha256": "30a9a232305d7adc33449fba558c6c46350a58c6415a1361a29d646ab7811e00",
+      "size": 3889
+    },
+    {
+      "path": "sources/legacy_project/src/firebase/firestore/use-doc.tsx",
+      "sha256": "954a0bac6632824db01684205ed7a7b519f37b668e1e348080db649b11dab860",
+      "size": 2891
+    },
+    {
+      "path": "sources/legacy_project/src/firebase/index.ts",
+      "sha256": "d58e6381549ab4f1875bbfba7bca719f13e404bd0a5f3acdaccef488870ddff9",
+      "size": 1761
+    },
+    {
+      "path": "sources/legacy_project/src/firebase/non-blocking-login.tsx",
+      "sha256": "1ce52bc7c07ca519f47969fd21e3992f6f789f1a92cf586e7cbb9af255d33210",
+      "size": 1422
+    },
+    {
+      "path": "sources/legacy_project/src/firebase/non-blocking-updates.tsx",
+      "sha256": "c344559399312fd3c681fb09bcd063e6ec2acc127888463f86dcb3dc976b154f",
+      "size": 2284
+    },
+    {
+      "path": "sources/legacy_project/src/firebase/provider.tsx",
+      "sha256": "52e4ee5b2c0400da76f87b8cb1d3b4f8601ca60cf9a7164214bed341220d58d6",
+      "size": 5734
+    },
+    {
+      "path": "sources/legacy_project/src/firebase/storage/index.ts",
+      "sha256": "4fc551ae8428fbc9238d38c536e436300528f163e556186a0b4ad160be4b6948",
+      "size": 741
+    },
+    {
+      "path": "sources/legacy_project/src/godot/FirebaseConnector.gd",
+      "sha256": "5f522024171c172d074aa3fff39f9f5d64ce3106a3bc69f96b397bb04dfb6a04",
+      "size": 1617
+    },
+    {
+      "path": "sources/legacy_project/src/godot/TextureManager.gd",
+      "sha256": "bd75de5333a732c512ff6214cb3bb0f9bd9311f97ad0ef26a80128a6fb252c4a",
+      "size": 591
+    },
+    {
+      "path": "sources/legacy_project/src/godot/WorldSync.gd",
+      "sha256": "43fae472b72bfafd817b54038adb969bb36e2f203fec6cd6ee8b387e2a63d5c5",
+      "size": 687
+    },
+    {
+      "path": "sources/legacy_project/src/hooks/use-mobile.tsx",
+      "sha256": "ad0936f84f1df79d3697bfbff9c18f8ad58431c1cbaf2359c6a853b0fcc9f28b",
+      "size": 565
+    },
+    {
+      "path": "sources/legacy_project/src/hooks/use-toast.ts",
+      "sha256": "03e892344ad170438ccfc156b4ee7ff0be4e535a2939e038f64556ce03b934ed",
+      "size": 3948
+    },
+    {
+      "path": "sources/legacy_project/src/lib/agent.ts",
+      "sha256": "6f9700cb12725899f4d1f3b394623738c6fdb436fca5dd0bf944bb5527910615",
+      "size": 6896
+    },
+    {
+      "path": "sources/legacy_project/src/lib/axiomatic-engine.ts",
+      "sha256": "ca57549a26a6d042b3394dc5c01bb6c69b4de0e4d7c7fbf5770e8518c0616ee4",
+      "size": 5693
+    },
+    {
+      "path": "sources/legacy_project/src/lib/brain/BrainScanner.ts",
+      "sha256": "957c1afbc408ebd22488652aadb834fe2a641437795140438ce4e536b53ae063",
+      "size": 1215
+    },
+    {
+      "path": "sources/legacy_project/src/lib/brain/FilesystemWatchdog.ts",
+      "sha256": "3626b4ca9e190142baa3b36cdb3f55f051e6bfa5d8efd18db76ce2665391b799",
+      "size": 991
+    },
+    {
+      "path": "sources/legacy_project/src/lib/brain/GameBrain.ts",
+      "sha256": "e0f126206517abd7046e29b40fcbd9ec26d29be617cc80c0225ed4d959e3d710",
+      "size": 2236
+    },
+    {
+      "path": "sources/legacy_project/src/lib/brain/cache/CacheManager.ts",
+      "sha256": "85dce4d25eec6509b7b12c8e6e0fdc99a31589315682735131588013e0243217",
+      "size": 713
+    },
+    {
+      "path": "sources/legacy_project/src/lib/brain/db/PostgresClient.ts",
+      "sha256": "ee36673808d0a18ecca25d894f3fe2d81aa86c43ccb56affc1933520f9ad3f43",
+      "size": 2045
+    },
+    {
+      "path": "sources/legacy_project/src/lib/brain/llm/GeminiProvider.ts",
+      "sha256": "d24831d24ef387b54cbc639f9859553fc3b4f875cf6c46f1e59abccc24cf0d3d",
+      "size": 670
+    },
+    {
+      "path": "sources/legacy_project/src/lib/brain/llm/LLMProvider.ts",
+      "sha256": "2d079be5278c28b02c24fa9eb79b7aca52282101d64b341930a509340ae75d5f",
+      "size": 147
+    },
+    {
+      "path": "sources/legacy_project/src/lib/brain/mcp/MCPClient.ts",
+      "sha256": "6ae2c90273793da0e6bc571909376507d055b0cae64dcb8f7d3a24727cf6f3fa",
+      "size": 753
+    },
+    {
+      "path": "sources/legacy_project/src/lib/brain/mixer/RepositoryMixer.ts",
+      "sha256": "ebebf12652fca3d749724bd038dfd4837096fa59c5b9f89ca1b244b7bb206eb5",
+      "size": 1253
+    },
+    {
+      "path": "sources/legacy_project/src/lib/brain/ws/WSServer.ts",
+      "sha256": "d553216e280664702cc26cd87e5386c02a7dc1b26ed33f098bc149e370e5d995",
+      "size": 571
+    },
+    {
+      "path": "sources/legacy_project/src/lib/interaction-logger.ts",
+      "sha256": "c452b72be463bf39d9749f7e11440e0e7d91ab8ba696af34f988a1130770f56e",
+      "size": 553
+    },
+    {
+      "path": "sources/legacy_project/src/lib/interaction-system.ts",
+      "sha256": "8212ecca1bbb748f60ae48b924b3a77cb5da41e3991d29623c0310968ea2e36a",
+      "size": 529
+    },
+    {
+      "path": "sources/legacy_project/src/lib/math-engine.ts",
+      "sha256": "f754f0ec09542aa903a4278fbfe445d0faf08aa7127b677a1c1a8b76ea81350e",
+      "size": 1505
+    },
+    {
+      "path": "sources/legacy_project/src/lib/placeholder-images.json",
+      "sha256": "58eceb91dafcba02ffe302e8d6636ef1b4e96ce343a6ac4284a76d85c7b3d494",
+      "size": 3775
+    },
+    {
+      "path": "sources/legacy_project/src/lib/placeholder-images.ts",
+      "sha256": "0ac9596f3764d5038b7fde3a940d3028aca9590c9ae49e3f0f831cc2dffbb82f",
+      "size": 239
+    },
+    {
+      "path": "sources/legacy_project/src/lib/types.ts",
+      "sha256": "b9863899e907ce5cde8edc08a6eba95909ce08cb89efa140e4cb142e35a11bfd",
+      "size": 738
+    },
+    {
+      "path": "sources/legacy_project/src/lib/utils.ts",
+      "sha256": "496fad0ec91365f59103d338891764772a7fd631cdaf1ef29cc0e9af1329ed01",
+      "size": 167
+    },
+    {
+      "path": "sources/legacy_project/src/lib/world-controller.ts",
+      "sha256": "6c07483333348e6cbaed797338a29e87b9a179191323f366bbc824c492d5c889",
+      "size": 1733
+    },
+    {
+      "path": "sources/legacy_project/src/services/AIService.ts",
+      "sha256": "ef094933501c0703d91fde67f86ea0aef80bbf176655bfcefaf41fa3ddb0922e",
+      "size": 2011
+    },
+    {
+      "path": "sources/legacy_project/src/services/AdminManager.ts",
+      "sha256": "93846cef10a16d2cced03e78ad0a68cfbeefdf3f24804969ff87d2540c6e9b66",
+      "size": 6119
+    },
+    {
+      "path": "sources/legacy_project/src/services/AdminSecurityManager.ts",
+      "sha256": "781f43c406b63a9f8196abb8bdea9c1f4f3fd73c95e7571e03644202a4fbf836",
+      "size": 5635
+    },
+    {
+      "path": "sources/legacy_project/src/services/AgentManager.ts",
+      "sha256": "2436d74b3144377586b93c3edb79e194572bbfb2c3914b978f69c4bb39d2189e",
+      "size": 1559
+    },
+    {
+      "path": "sources/legacy_project/src/services/AssetResolver.ts",
+      "sha256": "a1ac099e46fe8377ac19de274d85552c082091b4bd47bbd400e2fb1de24a2c42",
+      "size": 2236
+    },
+    {
+      "path": "sources/legacy_project/src/services/CharacterExportService.ts",
+      "sha256": "8e36e9044436421e1fa242f8cfd0a3333ec6a1871dacd86fdf6028955e143eb8",
+      "size": 1872
+    },
+    {
+      "path": "sources/legacy_project/src/services/CharacterImporter.ts",
+      "sha256": "d0656684b76a6bd55f09bd35c90b93e17052cd0ed090cf74796b48a7ee9389aa",
+      "size": 3122
+    },
+    {
+      "path": "sources/legacy_project/src/services/ChunkManager.ts",
+      "sha256": "7737b43bcafa16bb87e9553b51dfeddc943c91c6cce42635e6ba834da862e37b",
+      "size": 1605
+    },
+    {
+      "path": "sources/legacy_project/src/services/CombatManager.ts",
+      "sha256": "9a55d8447e0786bc3b99718ae4add8dbc6ba430c2367aa3abc73460804986683",
+      "size": 5705
+    },
+    {
+      "path": "sources/legacy_project/src/services/ComplianceManager.ts",
+      "sha256": "79903fb4b7e54105533ffd7ba2428d803cd0d0b4a89f294a5df5ff2dd366750f",
+      "size": 1598
+    },
+    {
+      "path": "sources/legacy_project/src/services/ContentAutomationManager.ts",
+      "sha256": "970e05765e15703bb1c49f0ba57af4873937f2f1ecbbca7c575cd45854ebb0f2",
+      "size": 3017
+    },
+    {
+      "path": "sources/legacy_project/src/services/CraftingManager.ts",
+      "sha256": "327cdb00b271c1d27f37bcb0ddeedf81d30968fa306cc16070661b5f25f381ac",
+      "size": 1819
+    },
+    {
+      "path": "sources/legacy_project/src/services/DatabaseExportService.ts",
+      "sha256": "47857f1d75ec2b69d1c9dae89111f8de0a559c894b9b65a43dc00c6b0c17d9fa",
+      "size": 2234
+    },
+    {
+      "path": "sources/legacy_project/src/services/DungeonGenerator.ts",
+      "sha256": "12d51935076b485aa026fb5218b019191789c773dc5959c3bdd84054c75f8b90",
+      "size": 1699
+    },
+    {
+      "path": "sources/legacy_project/src/services/EconomyManager.ts",
+      "sha256": "ba343f9fb5f0976a025efdb4ffc748b30662ef92778f3502a5d7e0f385af14ee",
+      "size": 1773
+    },
+    {
+      "path": "sources/legacy_project/src/services/GitHubSyncService.ts",
+      "sha256": "e9cc5798bba25f0f3850f5440eeea315f9fe7efd6243fa2cd8ab4ee79ba8e164",
+      "size": 2635
+    },
+    {
+      "path": "sources/legacy_project/src/services/GitZipService.ts",
+      "sha256": "35b154f0282d9c94bbc12b6ac735a9a5fa379204e34a42e4926db75ee7a8f97f",
+      "size": 2609
+    },
+    {
+      "path": "sources/legacy_project/src/services/HeuristicIntelligence.ts",
+      "sha256": "36f3dc33a40b27497221d0cd3da63baf9b3f56150b0752b831924d5d0ea0495d",
+      "size": 3075
+    },
+    {
+      "path": "sources/legacy_project/src/services/HierarchyManager.ts",
+      "sha256": "46ae2159835bc815bac807cff4d645ccd85cd97cbb63bb1b0fc986ed1e4aec2d",
+      "size": 4184
+    },
+    {
+      "path": "sources/legacy_project/src/services/InstancedAssetEngine.ts",
+      "sha256": "dd68552ef272321d2e4ca46f0fe802d503ab42417f14ea8441a6d7e794921357",
+      "size": 1613
+    },
+    {
+      "path": "sources/legacy_project/src/services/InteractionManager.ts",
+      "sha256": "3cf5968cb5ba84662203f597c157117960a58a0a5e83bb0e5b51309362b8f9f9",
+      "size": 1270
+    },
+    {
+      "path": "sources/legacy_project/src/services/LibraryManager.ts",
+      "sha256": "f82352f4d78c03c3d61da656059980da5154ac198ac27e12ccdf315269648b1b",
+      "size": 1942
+    },
+    {
+      "path": "sources/legacy_project/src/services/LootManager.ts",
+      "sha256": "db23ac6db5a6c8ed371e3d614987dbff717a6320cc5ace84138aba8746178f96",
+      "size": 3815
+    },
+    {
+      "path": "sources/legacy_project/src/services/LoreManager.ts",
+      "sha256": "9e0b55ea3c006f27e4316d2d30ff5ecb27cb07caa91812e8232e69a9ec1ab644",
+      "size": 7267
+    },
+    {
+      "path": "sources/legacy_project/src/services/MaterialEngine.ts",
+      "sha256": "bea308aa23d1d2640bf373534ae6c259490bb5a5312b4afc49b6a93a5b9a9b5b",
+      "size": 2460
+    },
+    {
+      "path": "sources/legacy_project/src/services/NeuralCacheManager.ts",
+      "sha256": "5aa44bd7c379df323cf9c9fa564ac394626a2c82b940e98c4a1be9f304af9bcd",
+      "size": 1811
+    },
+    {
+      "path": "sources/legacy_project/src/services/PaypalManager.ts",
+      "sha256": "23fd4738f80fead61e5264274fc40796233ac12ed96fb166ea9f388edfcda913",
+      "size": 5154
+    },
+    {
+      "path": "sources/legacy_project/src/services/ProceduralQuestEngine.ts",
+      "sha256": "15e2cd03f4784d0946b129b3b75490eb331f83c5995396a044d0f9f450c2fd4a",
+      "size": 4082
+    },
+    {
+      "path": "sources/legacy_project/src/services/QuestManager.ts",
+      "sha256": "4a8491acfdf970f5d66f5a15d3e583f6e902588d827e6e1774d6caa4344cb695",
+      "size": 4495
+    },
+    {
+      "path": "sources/legacy_project/src/services/SkillSystem.ts",
+      "sha256": "b096ea5e9a9cc80efb57c0e136d12afc2de524b4fc6f5df6e591412519b800af",
+      "size": 1691
+    },
+    {
+      "path": "sources/legacy_project/src/services/SoundManager.ts",
+      "sha256": "0009b0936e620239c288cfb0643c5ae32a8c58c81c71f55cd7301e45ba5d7f00",
+      "size": 2358
+    },
+    {
+      "path": "sources/legacy_project/src/services/TextureEngine.ts",
+      "sha256": "ca44007c91710cb0dfae783f72bfecb9a0af3c1d565c51d09e6f806203d9d830",
+      "size": 4438
+    },
+    {
+      "path": "sources/legacy_project/src/services/TransactionManager.ts",
+      "sha256": "39c290c5841c951718144753bb26fbd251363d43162d8bd48ee76f5c191a7cb1",
+      "size": 3961
+    },
+    {
+      "path": "sources/legacy_project/src/services/TransactionWrapper.ts",
+      "sha256": "d88a06cba3e78472f3918aecddc2cb9372ca2f225016ad9fa63d488e26eb1802",
+      "size": 1065
+    },
+    {
+      "path": "sources/legacy_project/src/services/TrustManager.ts",
+      "sha256": "7a6b5f00ee98ebe0735f4daf48594cd327f834cdb2030849b68bd5777dc7a189",
+      "size": 6003
+    },
+    {
+      "path": "sources/legacy_project/src/services/VFXEngine.ts",
+      "sha256": "0abc5569436dc264310d8fd2588fb4afd4ee335d99aee6aefdf61a17f3b2c9fa",
+      "size": 5322
+    },
+    {
+      "path": "sources/legacy_project/src/services/WebSocketService.ts",
+      "sha256": "6ccf9316f9393d239474d698431d5e09d1d49a33385be53599ec41c3de98589d",
+      "size": 2604
+    },
+    {
+      "path": "sources/legacy_project/src/services/WorldBuildingService.ts",
+      "sha256": "0413d32e5d227f56af9f1e45faadb94833fe26e5b067015754c5b9eb7153417e",
+      "size": 4225
+    },
+    {
+      "path": "sources/legacy_project/src/services/index.ts",
+      "sha256": "a4645175788484b57f2ab4ef41a5842c311d86bcecaac24fb5fc7c76af32bd00",
+      "size": 525
+    },
+    {
+      "path": "sources/legacy_project/src/src/integration/HeuristicBrainBridge.ts",
+      "sha256": "604582829c2dbca0125c62ac60354a2d99a95a3d67337f2ca02c37d25471395a",
+      "size": 1785
+    },
+    {
+      "path": "sources/legacy_project/src/src/integration/README.md",
+      "sha256": "cca5de496303b986dda82878de3ed287730b5f4c25f25fca51a2a6828c19243e",
+      "size": 849
+    },
+    {
+      "path": "sources/legacy_project/src/src/integration/ServiceFieldAdapter.ts",
+      "sha256": "e35ab79b6b9583b2e2e3be0a64b17ce5584d03778db181cd50114383585ff7ff",
+      "size": 1238
+    },
+    {
+      "path": "sources/legacy_project/src/store.ts",
+      "sha256": "0c8845a538459e3fe913c104b6375f6d2d01c2b392d05a7f9c0e1db3e4f36630",
+      "size": 11858
+    },
+    {
+      "path": "sources/legacy_project/src/types.ts",
+      "sha256": "229ee62405dfd91130ea312a592a98acda8eb14748a23562d6e866be57c6b19d",
+      "size": 9533
+    },
+    {
+      "path": "sources/world_brain_module/README.md",
+      "sha256": "6fd365ee07d970b9ece56021ad0f56a54d007deaf65d3a753b7742454cb636df",
+      "size": 330
+    },
+    {
+      "path": "sources/world_brain_module/package.json",
+      "sha256": "348778e7bdf0a62dc608c704c293dce189548ea0c8598e50bb1d554e6af5a099",
+      "size": 251
+    },
+    {
+      "path": "sources/world_brain_module/scripts/simulate-agent.js",
+      "sha256": "a12d38450c5f3aec6f26b2c764278116365a30a14df2325776261279465fa716",
+      "size": 183
+    },
+    {
+      "path": "sources/world_brain_module/src/agents/BaseAgent.js",
+      "sha256": "696facd5a559d69dbe6ada08c81f5778e7d391bce595a92d33d150b440b34d7c",
+      "size": 125
+    },
+    {
+      "path": "sources/world_brain_module/src/agents/EconomyAgent.js",
+      "sha256": "d19ad53dbcb7c125c8cc90ec413a9d0268aafa23f2a8d1919d8df1242628bc98",
+      "size": 369
+    },
+    {
+      "path": "sources/world_brain_module/src/agents/NavigationAgent.js",
+      "sha256": "113e25ee753d03ed04ad63b20647984d3df3e46cc99fdd29603328a2562a3990",
+      "size": 336
+    },
+    {
+      "path": "sources/world_brain_module/src/brain/Blackboard.js",
+      "sha256": "34a1862360f1d70c8185b1955d9c7571c4dca641cc63d5fb37f0104076d1fb9d",
+      "size": 314
+    },
+    {
+      "path": "sources/world_brain_module/src/brain/Orchestrator.js",
+      "sha256": "6c219e55c62cb41087bb7e5a7be08aceaabdd974032c4253dc15efc29826c438",
+      "size": 1035
+    },
+    {
+      "path": "sources/world_brain_module/src/brain/WorldBrain.js",
+      "sha256": "35e62a0e50796161b3877219bdc6bf0e697f12a69d966a76bc743e60b1b14e5c",
+      "size": 585
+    },
+    {
+      "path": "sources/world_brain_module/src/server/integrateWorldBrain.js",
+      "sha256": "c688e7fdba2d0fb3f225b72463e78d5755b0f8f69d3b7bd69516fcb88402cc93",
+      "size": 267
+    }
+  ]
+}

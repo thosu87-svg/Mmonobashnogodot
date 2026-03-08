@@ -1,0 +1,16 @@
+{
+  "name": "mmorpg-complete-agent-framework",
+  "version": "1.0.0",
+  "description": "Starter browser MMORPG with world-brain agent core, chunk streaming, websocket sync, and nocode install docs.",
+  "type": "module",
+  "main": "src/server/index.js",
+  "scripts": {
+    "start": "node src/server/index.js",
+    "dev": "node src/server/index.js",
+    "simulate": "node scripts/simulate-brain.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "ws": "^8.18.0"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "mmorpg-world-brain",
+  "version": "1.0.0",
+  "main": "src/server/integrateWorldBrain.js",
+  "type": "module",
+  "scripts": {
+    "simulate": "node scripts/simulate-agent.js"
+  },
+  "dependencies": {
+    "json-rules-engine": "^7.1.0"
+  }
+}

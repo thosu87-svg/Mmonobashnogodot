@@ -1,0 +1,47 @@
+AUFGABE:
+Nimm die Datei `mmorpg_nobash_delivery.zip` und deploye die statische Spieloberfläche OHNE bash und OHNE npm.
+
+ZIEL:
+Der Agent soll die fertigen Dateien aus `no-bash-delivery/static-site/` auf ein statisches Hosting hochladen.
+Falls ein fertiger Server-Binary separat bereitsteht, soll die WebSocket-Adresse in `config.js` eingetragen werden.
+
+SCHRITTE:
+
+1. ZIP vollständig entpacken.
+
+2. Öffne den Ordner:
+   `no-bash-delivery/static-site/`
+
+3. Öffne die Datei:
+   `config.js`
+
+4. Trage die WebSocket-Adresse des laufenden Spielservers ein.
+   Beispiel:
+   window.RUNTIME_CONFIG = {
+     wsUrl: "wss://mein-spielserver.example.com"
+   };
+
+5. Lade den gesamten Inhalt von `no-bash-delivery/static-site/` auf ein statisches Hosting hoch.
+   Beispiele:
+   - Netlify Drag-and-Drop
+   - anderer Hoster mit ZIP- oder Datei-Upload
+
+6. Prüfe im Browser:
+   - lädt die Spielseite?
+   - lädt dashboard.html?
+   - lädt integration.html?
+   - wird eine WebSocket-Verbindung hergestellt?
+
+WICHTIGE REGELN:
+- Kein npm ausführen
+- Kein bash ausführen
+- Keine Dateien aus `integrated-main/` verändern
+- Nur die statischen Dateien deployen, sofern kein vorgebauter Server-Binary mitgeliefert wurde
+
+WENN AUCH EIN PORTABLE SERVER BEREITSTEHT:
+- Dann den Inhalt von `no-bash-delivery/portable-server/` verwenden
+- Server starten
+- danach `config.js` auf die WebSocket-Adresse dieses Servers zeigen lassen
+
+KURZFORM:
+Entpacken -> `static-site/config.js` anpassen -> statische Dateien hochladen -> Browser testen.
