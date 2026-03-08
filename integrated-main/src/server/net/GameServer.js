@@ -1,6 +1,9 @@
 import express from 'express';
 import { createServer } from 'http';
 import { WebSocketServer } from 'ws';
+import { fileURLToPath } from 'url';
+import path from 'path';
+import { LegacyRegistry } from './LegacyRegistry.js';
 
 export class GameServer {
   constructor(world, brain, port) {
@@ -13,6 +16,7 @@ export class GameServer {
     this.app = express();
     this.http = createServer(this.app);
     this.wss = new WebSocketServer({ server: this.http });
+    console.log('[WS] WebSocket server created');
   }
 
   setupHttp() {
@@ -24,6 +28,7 @@ export class GameServer {
 
   setupWs() {
     this.wss.on('connection', (socket) => {
+      console.log('[WS] New connection established');
       const id = crypto.randomUUID();
       this.world.upsertPlayer(id, { x: 0, z: 0 });
       socket.send(JSON.stringify({ type: 'welcome', id }));

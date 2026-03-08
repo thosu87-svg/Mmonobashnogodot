@@ -49,6 +49,16 @@ ws.addEventListener('open', () => {
   statusEl.textContent = 'verbunden';
 });
 
+ws.addEventListener('error', (error) => {
+  statusEl.textContent = 'Verbindungsfehler';
+  console.error('WebSocket error:', error);
+});
+
+ws.addEventListener('close', (event) => {
+  statusEl.textContent = 'Verbindung geschlossen';
+  console.log('WebSocket closed:', event.code, event.reason);
+});
+
 ws.addEventListener('message', (event) => {
   const data = JSON.parse(event.data);
 
