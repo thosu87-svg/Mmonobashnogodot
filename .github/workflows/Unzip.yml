@@ -1,0 +1,48 @@
+name: Unzip MMORPG Brain To Repo
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+
+jobs:
+  unzip-and-commit:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Install unzip
+        run: sudo apt-get update && sudo apt-get install -y unzip
+
+      - name: Verify zip exists
+        run: |
+          ls -la
+          test -f mmorpg_nobash_delivery_enriched.zip
+
+      - name: Unzip into repo root
+        run: unzip -o mmorpg_nobash_delivery_enriched.zip
+
+      - name: Show extracted files
+        run: ls -R
+
+      - name: Commit extracted files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add .
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+
+          git commit -m "Auto-unzip mmorpg_nobash_delivery_enriched.zip"
+          git push
